@@ -1,0 +1,8002 @@
+[
+{
+importe: 1337.83,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 9648.37,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 482.14,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 9935.81,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 4,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1379.71,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 7359.23,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 4,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 5175.14,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 5334.76,
+vendedor: {"id": 19, "nombre": "Karlie Hartman"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 30
+},
+{
+importe: 8214.66,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 919.59,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 80
+},
+{
+importe: 5979.38,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 2, "nombre": "Sullivan Benton"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 433.42,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8191.29,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 6478.7,
+vendedor: {"id": 100, "nombre": "Cash Le"}, 
+comprador: {"id": 52, "nombre": "Nasir Mathis"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 6892.56,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 7694.13,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 94, "nombre": "Beatrice Horn"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 4061.42,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 89, "nombre": "Adrien Barton"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 6253.1,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 5038.21,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 9733.19,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 7697.58,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 9865.19,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 74, "nombre": "Harold Cruz"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 3537.21,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 675.37,
+vendedor: {"id": 31, "nombre": "Mackenzie Gold"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 1583.40,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 8119.48,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 5540.6,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 20
+},
+{
+importe: 7052.5,
+vendedor: {"id": 100, "nombre": "Cash Le"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 9823.39,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 27, "nombre": "Tamia Bowen"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 7097.28,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8469.60,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 4914.9,
+vendedor: {"id": 40, "nombre": "Yehuda Lowery"}, 
+comprador: {"id": 49, "nombre": "Hannah Brennan"}, 
+calificacionVendedor: 3,
+calificacionComprador: 10,
+comision: 50
+},
+{
+importe: 442.2,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 9161.17,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 90
+},
+{
+importe: 315.37,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 40
+},
+{
+importe: 7880.44,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 30
+},
+{
+importe: 1893.48,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 90
+},
+{
+importe: 6281.46,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 8325.95,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 6986.0,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 1325.72,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 2072.85,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 9297.88,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 8347.34,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 2106.21,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8939.78,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 954.29,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 90
+},
+{
+importe: 35.52,
+vendedor: {"id": 34, "nombre": "Ace Bean"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 2882.98,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 6736.93,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 50
+},
+{
+importe: 8880.11,
+vendedor: {"id": 92, "nombre": "Raelynn Mejia"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 20
+},
+{
+importe: 265.75,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 10,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 8044.17,
+vendedor: {"id": 33, "nombre": "Aidyn Curry"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 9723.15,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 7794.10,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 8735.77,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 5131.12,
+vendedor: {"id": 31, "nombre": "Mackenzie Gold"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 80
+},
+{
+importe: 1056.2,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 5267.45,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 50, "nombre": "Martin Edwards"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 5142.6,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 1,
+calificacionComprador: 5,
+comision: 80
+},
+{
+importe: 7261.42,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 80
+},
+{
+importe: 9294.59,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 20
+},
+{
+importe: 7436.96,
+vendedor: {"id": 50, "nombre": "Martin Edwards"}, 
+comprador: {"id": 2, "nombre": "Sullivan Benton"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 3094.34,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8695.26,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 60
+},
+{
+importe: 2521.1,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 2742.53,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 20
+},
+{
+importe: 5903.48,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 8739.5,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 4,
+calificacionComprador: 9,
+comision: 90
+},
+{
+importe: 86.7,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 36, "nombre": "Kimora Finch"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 3531.81,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 70
+},
+{
+importe: 7590.16,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6852.30,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 7091.8,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 30
+},
+{
+importe: 7455.50,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 70
+},
+{
+importe: 6659.44,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 4746.32,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 7316.77,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 9138.68,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 7013.42,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 4266.9,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 30
+},
+{
+importe: 9800.65,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 94, "nombre": "Beatrice Horn"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 80
+},
+{
+importe: 3278.36,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 73, "nombre": "Jacoby Graham"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 5466.76,
+vendedor: {"id": 92, "nombre": "Raelynn Mejia"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 60
+},
+{
+importe: 7919.63,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 3166.99,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 50
+},
+{
+importe: 6636.31,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 7132.33,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 4777.6,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 9007.32,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 3909.32,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 36, "nombre": "Kimora Finch"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 9807.8,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7171.7,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 3074.83,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6528.73,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 7355.81,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 6,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 4614.38,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 525.63,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 3661.18,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 4334.33,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 50
+},
+{
+importe: 7570.97,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 3182.5,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 1650.78,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 9454.82,
+vendedor: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 3,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 847.47,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 4360.12,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7963.14,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 9168.81,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 4450.90,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 50
+},
+{
+importe: 3599.36,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 40.65,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 3,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 5922.94,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 50, "nombre": "Martin Edwards"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 10
+},
+{
+importe: 6304.12,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 30
+},
+{
+importe: 1216.39,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 13, "nombre": "Alivia Blackwell"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 2259.98,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 50, "nombre": "Martin Edwards"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 9584.19,
+vendedor: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 4249.19,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 8202.76,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 96, "nombre": "Melina Thomas"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8248.71,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 2323.58,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 2220.2,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 70
+},
+{
+importe: 2781.51,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 488.35,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 497.37,
+vendedor: {"id": 88, "nombre": "Emilie David"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 50
+},
+{
+importe: 7743.11,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 2182.59,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 8339.69,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 7467.10,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 9784.92,
+vendedor: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 50
+},
+{
+importe: 3097.14,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1569.23,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 40
+},
+{
+importe: 453.74,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 7596.15,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 20, "nombre": "Eduardo Donovan"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 5250.7,
+vendedor: {"id": 61, "nombre": "Rory Johnson"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 4,
+calificacionComprador: 10,
+comision: 40
+},
+{
+importe: 1124.31,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 6140.48,
+vendedor: {"id": 6, "nombre": "Skye Mayer"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 793.2,
+vendedor: {"id": 5, "nombre": "Giovanni Olson"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 5004.40,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 60
+},
+{
+importe: 7198.27,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 867.3,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 7334.8,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 7272.65,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 8471.57,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6536.86,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 3507.50,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 8178.16,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 5,
+calificacionComprador: 7,
+comision: 50
+},
+{
+importe: 4690.23,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 90
+},
+{
+importe: 5526.97,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 5116.38,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 74, "nombre": "Harold Cruz"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 90
+},
+{
+importe: 5581.74,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 80
+},
+{
+importe: 2459.67,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 6060.16,
+vendedor: {"id": 22, "nombre": "Blakely Newman"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 427.12,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 50
+},
+{
+importe: 2506.2,
+vendedor: {"id": 6, "nombre": "Skye Mayer"}, 
+comprador: {"id": 36, "nombre": "Kimora Finch"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 20
+},
+{
+importe: 7687.6,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 8832.15,
+vendedor: {"id": 2, "nombre": "Sullivan Benton"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 90
+},
+{
+importe: 1796.12,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 60
+},
+{
+importe: 2803.99,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 90
+},
+{
+importe: 6369.62,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 70
+},
+{
+importe: 3351.74,
+vendedor: {"id": 6, "nombre": "Skye Mayer"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 4532.33,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 8085.81,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 4244.33,
+vendedor: {"id": 5, "nombre": "Giovanni Olson"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 40
+},
+{
+importe: 5006.33,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 6891.19,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 2740.27,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 5713.90,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 9523.71,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 3,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 3078.78,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 20
+},
+{
+importe: 1185.1,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 6049.16,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 9198.94,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 3,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6290.72,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 60
+},
+{
+importe: 1324.26,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 89, "nombre": "Adrien Barton"}, 
+calificacionVendedor: 1,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 1849.30,
+vendedor: {"id": 40, "nombre": "Yehuda Lowery"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 9717.18,
+vendedor: {"id": 61, "nombre": "Rory Johnson"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 50
+},
+{
+importe: 4890.86,
+vendedor: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 1735.15,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 354.66,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 4859.3,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 8577.83,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8543.47,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 50, "nombre": "Martin Edwards"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 50
+},
+{
+importe: 1533.76,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 30
+},
+{
+importe: 4809.78,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 20, "nombre": "Eduardo Donovan"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 8484.0,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 80
+},
+{
+importe: 7118.62,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 70
+},
+{
+importe: 1102.27,
+vendedor: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 765.23,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 1230.73,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 30
+},
+{
+importe: 9814.51,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 3829.26,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 2573.30,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 990.20,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 20
+},
+{
+importe: 4112.17,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 645.67,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 70
+},
+{
+importe: 2623.87,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 6644.61,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 8647.21,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 5700.15,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 40
+},
+{
+importe: 3613.14,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 80
+},
+{
+importe: 135.61,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 2997.51,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8862.19,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 60, "nombre": "Meadow Ellison"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6949.86,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 3295.73,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 9437.60,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 7474.40,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 40
+},
+{
+importe: 8210.75,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 52, "nombre": "Nasir Mathis"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 3252.70,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 5049.90,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 6,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 6574.21,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 7019.86,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 8030.63,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 6328.29,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 1,
+calificacionComprador: 8,
+comision: 80
+},
+{
+importe: 6620.2,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 2837.73,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 30
+},
+{
+importe: 4338.28,
+vendedor: {"id": 19, "nombre": "Karlie Hartman"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 40
+},
+{
+importe: 5437.71,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 27, "nombre": "Tamia Bowen"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8619.15,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 20, "nombre": "Eduardo Donovan"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 2312.25,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 9718.33,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 20
+},
+{
+importe: 252.91,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 7640.5,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 1949.26,
+vendedor: {"id": 19, "nombre": "Karlie Hartman"}, 
+comprador: {"id": 94, "nombre": "Beatrice Horn"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 80
+},
+{
+importe: 4963.66,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 20
+},
+{
+importe: 1894.91,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 60
+},
+{
+importe: 3745.43,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 49, "nombre": "Hannah Brennan"}, 
+calificacionVendedor: 2,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2702.15,
+vendedor: {"id": 2, "nombre": "Sullivan Benton"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 3407.14,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 9243.35,
+vendedor: {"id": 33, "nombre": "Aidyn Curry"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 9415.85,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 60
+},
+{
+importe: 4665.61,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 707.45,
+vendedor: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 6,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 6120.70,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 6450.88,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 30
+},
+{
+importe: 8169.50,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 50
+},
+{
+importe: 7152.70,
+vendedor: {"id": 47, "nombre": "Alijah Raymond"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 30
+},
+{
+importe: 1831.22,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 3,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 2595.66,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8325.11,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 786.29,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 3456.16,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 262.70,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 7636.82,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 7516.82,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 1176.84,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 5305.94,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 5054.97,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 22, "nombre": "Blakely Newman"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 3650.97,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 4,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 1732.73,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 8195.49,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 9422.55,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 90
+},
+{
+importe: 824.80,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 4,
+calificacionComprador: 9,
+comision: 30
+},
+{
+importe: 1226.46,
+vendedor: {"id": 80, "nombre": "Maxim Rollins"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 441.48,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 3,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 5045.39,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 3,
+calificacionComprador: 10,
+comision: 20
+},
+{
+importe: 3285.5,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 52, "nombre": "Nasir Mathis"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 42.97,
+vendedor: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 6,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 7348.55,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 4273.73,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 9055.74,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 10
+},
+{
+importe: 4707.55,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 789.17,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 702.96,
+vendedor: {"id": 88, "nombre": "Emilie David"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 60
+},
+{
+importe: 7730.85,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 8117.46,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 7629.7,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 20
+},
+{
+importe: 1221.81,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 70
+},
+{
+importe: 3538.40,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 10,
+calificacionComprador: 10,
+comision: 30
+},
+{
+importe: 6688.40,
+vendedor: {"id": 2, "nombre": "Sullivan Benton"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 40
+},
+{
+importe: 5638.64,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 2320.34,
+vendedor: {"id": 50, "nombre": "Martin Edwards"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 2427.53,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 90
+},
+{
+importe: 5220.98,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6008.60,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 306.74,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 5974.66,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 1217.27,
+vendedor: {"id": 33, "nombre": "Aidyn Curry"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6861.0,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 30
+},
+{
+importe: 9747.7,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 10,
+calificacionComprador: 7,
+comision: 10
+},
+{
+importe: 4079.24,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8982.30,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 52, "nombre": "Nasir Mathis"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 4103.98,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 89, "nombre": "Adrien Barton"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 45.65,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 9213.55,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 5,
+calificacionComprador: 8,
+comision: 70
+},
+{
+importe: 6552.37,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 90
+},
+{
+importe: 4610.39,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 4749.99,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 6, "nombre": "Skye Mayer"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 90
+},
+{
+importe: 8138.89,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 30
+},
+{
+importe: 9275.17,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 3806.48,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 8755.56,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 6530.54,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6751.45,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 961.34,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 2327.49,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 6,
+calificacionComprador: 10,
+comision: 70
+},
+{
+importe: 5026.39,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 60
+},
+{
+importe: 2494.80,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 5368.37,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 8814.49,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 973.67,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 70
+},
+{
+importe: 9726.14,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 7900.96,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 3,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 4821.4,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 22, "nombre": "Blakely Newman"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 2540.41,
+vendedor: {"id": 2, "nombre": "Sullivan Benton"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 6,
+calificacionComprador: 6,
+comision: 10
+},
+{
+importe: 9202.40,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 1466.25,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 3,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 9883.94,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 7997.69,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 4,
+calificacionComprador: 9,
+comision: 50
+},
+{
+importe: 6243.90,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 50
+},
+{
+importe: 7709.87,
+vendedor: {"id": 34, "nombre": "Ace Bean"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 2463.80,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 70
+},
+{
+importe: 1693.11,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6199.87,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 4,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 3409.81,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 6375.10,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 10
+},
+{
+importe: 2538.39,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 90
+},
+{
+importe: 1294.37,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 92, "nombre": "Raelynn Mejia"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 784.55,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 10,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 3227.71,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 4056.17,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 15.36,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 2060.9,
+vendedor: {"id": 91, "nombre": "Zechariah Munoz"}, 
+comprador: {"id": 60, "nombre": "Meadow Ellison"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 7300.63,
+vendedor: {"id": 61, "nombre": "Rory Johnson"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 366.91,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6818.34,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 60
+},
+{
+importe: 3725.64,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 73, "nombre": "Jacoby Graham"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 6414.21,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 2033.86,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 30
+},
+{
+importe: 2614.25,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 205.38,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 30
+},
+{
+importe: 6852.11,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 3600.47,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 1576.97,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 7113.24,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 838.5,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 10,
+calificacionComprador: 10,
+comision: 50
+},
+{
+importe: 5803.33,
+vendedor: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+comprador: {"id": 50, "nombre": "Martin Edwards"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 6285.19,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 7087.70,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 90
+},
+{
+importe: 6489.53,
+vendedor: {"id": 2, "nombre": "Sullivan Benton"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 2285.45,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 52, "nombre": "Nasir Mathis"}, 
+calificacionVendedor: 1,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 2750.42,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 1703.55,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 5244.43,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 5,
+calificacionComprador: 8,
+comision: 30
+},
+{
+importe: 2396.78,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 3529.11,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 9653.43,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 70
+},
+{
+importe: 9700.90,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 2633.67,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 3563.51,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 5873.64,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 70
+},
+{
+importe: 8252.10,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 6992.11,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 4,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 5499.23,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6641.80,
+vendedor: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 5983.46,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 94, "nombre": "Beatrice Horn"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 2282.82,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 10,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6459.62,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6047.84,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 5098.1,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 5164.10,
+vendedor: {"id": 91, "nombre": "Zechariah Munoz"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 5,
+calificacionComprador: 7,
+comision: 90
+},
+{
+importe: 6174.55,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 20
+},
+{
+importe: 5363.49,
+vendedor: {"id": 40, "nombre": "Yehuda Lowery"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 80
+},
+{
+importe: 151.96,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 22, "nombre": "Blakely Newman"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 60
+},
+{
+importe: 129.69,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6392.3,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 1,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 9350.24,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 6,
+calificacionComprador: 5,
+comision: 60
+},
+{
+importe: 9810.37,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 1515.24,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 70
+},
+{
+importe: 8460.11,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 80
+},
+{
+importe: 9242.48,
+vendedor: {"id": 6, "nombre": "Skye Mayer"}, 
+comprador: {"id": 60, "nombre": "Meadow Ellison"}, 
+calificacionVendedor: 3,
+calificacionComprador: 10,
+comision: 90
+},
+{
+importe: 5975.20,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 10,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 9375.3,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 9827.74,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 3556.44,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 73.2,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 2,
+calificacionComprador: 1,
+comision: 60
+},
+{
+importe: 3513.89,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6377.62,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 94, "nombre": "Beatrice Horn"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 80
+},
+{
+importe: 3508.97,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 40
+},
+{
+importe: 2154.10,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 90
+},
+{
+importe: 8085.93,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 6,
+calificacionComprador: 6,
+comision: 20
+},
+{
+importe: 8346.25,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 9107.58,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 3,
+calificacionComprador: 3,
+comision: 30
+},
+{
+importe: 3819.90,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 50
+},
+{
+importe: 9254.69,
+vendedor: {"id": 50, "nombre": "Martin Edwards"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 20
+},
+{
+importe: 5025.30,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 70
+},
+{
+importe: 7208.98,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 3614.83,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 3,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 7980.73,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 6838.23,
+vendedor: {"id": 47, "nombre": "Alijah Raymond"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 3961.72,
+vendedor: {"id": 31, "nombre": "Mackenzie Gold"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7105.45,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 1157.80,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 3687.65,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 4329.11,
+vendedor: {"id": 34, "nombre": "Ace Bean"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 7236.0,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 50
+},
+{
+importe: 650.79,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 74, "nombre": "Harold Cruz"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 3087.18,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 1033.12,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 36, "nombre": "Kimora Finch"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 10
+},
+{
+importe: 3368.22,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 1361.74,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 4,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 4454.91,
+vendedor: {"id": 80, "nombre": "Maxim Rollins"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 50
+},
+{
+importe: 9668.83,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 50
+},
+{
+importe: 4170.99,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 10,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 3778.10,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 4721.88,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 7431.9,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 2744.43,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 5322.30,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 30
+},
+{
+importe: 7260.16,
+vendedor: {"id": 40, "nombre": "Yehuda Lowery"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 90
+},
+{
+importe: 4078.74,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 5697.71,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 90
+},
+{
+importe: 3321.2,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 60
+},
+{
+importe: 5660.80,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 8822.39,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 90
+},
+{
+importe: 6363.4,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 80
+},
+{
+importe: 5274.90,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 30
+},
+{
+importe: 9071.8,
+vendedor: {"id": 80, "nombre": "Maxim Rollins"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 90
+},
+{
+importe: 2057.45,
+vendedor: {"id": 92, "nombre": "Raelynn Mejia"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 5,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 2807.1,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 6,
+calificacionComprador: 5,
+comision: 20
+},
+{
+importe: 4586.65,
+vendedor: {"id": 61, "nombre": "Rory Johnson"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 50
+},
+{
+importe: 8276.73,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 60
+},
+{
+importe: 103.43,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 6,
+calificacionComprador: 10,
+comision: 10
+},
+{
+importe: 2961.67,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 10,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 9134.55,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 2484.30,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 7658.94,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 122.54,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 7818.11,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 725.19,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 2279.12,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 3214.37,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 6621.10,
+vendedor: {"id": 22, "nombre": "Blakely Newman"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 9580.49,
+vendedor: {"id": 92, "nombre": "Raelynn Mejia"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 1302.43,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 1859.39,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 3693.37,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 8151.91,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 6,
+calificacionComprador: 10,
+comision: 40
+},
+{
+importe: 6820.18,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 1,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 3581.57,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 20
+},
+{
+importe: 2595.7,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8697.64,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 1513.0,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 94, "nombre": "Beatrice Horn"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 40
+},
+{
+importe: 1242.59,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 30
+},
+{
+importe: 8841.55,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 5162.67,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 10,
+calificacionComprador: 9,
+comision: 90
+},
+{
+importe: 546.41,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 9632.71,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 7791.94,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 50
+},
+{
+importe: 7647.47,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 1377.68,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 90
+},
+{
+importe: 722.75,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 7533.83,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 392.79,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8916.71,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 70
+},
+{
+importe: 5781.98,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 96, "nombre": "Melina Thomas"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 8153.32,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 40
+},
+{
+importe: 8777.74,
+vendedor: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+comprador: {"id": 92, "nombre": "Raelynn Mejia"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2232.80,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 1968.44,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 27, "nombre": "Tamia Bowen"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 3937.91,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 57, "nombre": "Elliot Barton"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 70
+},
+{
+importe: 2964.2,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 7965.42,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 2,
+calificacionComprador: 5,
+comision: 80
+},
+{
+importe: 3743.99,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 679.68,
+vendedor: {"id": 61, "nombre": "Rory Johnson"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 3,
+calificacionComprador: 7,
+comision: 80
+},
+{
+importe: 6498.58,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 5,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 6049.2,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 2518.4,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 57, "nombre": "Elliot Barton"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 4455.9,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 547.19,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 435.31,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 70
+},
+{
+importe: 6136.96,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 4,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 8019.29,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 3623.85,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 10
+},
+{
+importe: 3593.5,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 1154.17,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1166.66,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 455.35,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 80
+},
+{
+importe: 8952.56,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 1,
+calificacionComprador: 5,
+comision: 70
+},
+{
+importe: 3051.38,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 6790.85,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 9636.88,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 10
+},
+{
+importe: 2670.36,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 20
+},
+{
+importe: 5945.52,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 6, "nombre": "Skye Mayer"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 135.43,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 89, "nombre": "Adrien Barton"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 33.81,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 389.47,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 20
+},
+{
+importe: 9555.51,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 30
+},
+{
+importe: 7694.69,
+vendedor: {"id": 92, "nombre": "Raelynn Mejia"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 30
+},
+{
+importe: 7526.38,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2074.93,
+vendedor: {"id": 6, "nombre": "Skye Mayer"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 8746.90,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 10
+},
+{
+importe: 5786.11,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 3,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 5993.57,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 90
+},
+{
+importe: 2462.13,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 3677.34,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 60
+},
+{
+importe: 9788.3,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 50
+},
+{
+importe: 4441.42,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 1529.55,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 1138.39,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 4472.89,
+vendedor: {"id": 34, "nombre": "Ace Bean"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 10,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 4164.43,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 3245.49,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 50
+},
+{
+importe: 9523.51,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 8563.2,
+vendedor: {"id": 6, "nombre": "Skye Mayer"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 8292.13,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 4004.32,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 5,
+calificacionComprador: 10,
+comision: 50
+},
+{
+importe: 8408.1,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 40
+},
+{
+importe: 2687.71,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 3227.91,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 8003.48,
+vendedor: {"id": 40, "nombre": "Yehuda Lowery"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 3181.34,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 4681.64,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 70
+},
+{
+importe: 5248.7,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 5783.1,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 57, "nombre": "Elliot Barton"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 10
+},
+{
+importe: 6580.24,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1286.95,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 700.6,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 2792.23,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 90
+},
+{
+importe: 6529.57,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 6808.30,
+vendedor: {"id": 80, "nombre": "Maxim Rollins"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 1614.81,
+vendedor: {"id": 92, "nombre": "Raelynn Mejia"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 3628.41,
+vendedor: {"id": 5, "nombre": "Giovanni Olson"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 90
+},
+{
+importe: 9199.77,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 50
+},
+{
+importe: 6099.5,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 1918.32,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 22, "nombre": "Blakely Newman"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 3276.99,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7642.22,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 4187.39,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 10
+},
+{
+importe: 5738.69,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7906.99,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 2,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 2379.64,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 22, "nombre": "Blakely Newman"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 4144.73,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 3,
+calificacionComprador: 7,
+comision: 30
+},
+{
+importe: 7371.64,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 8124.75,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 90
+},
+{
+importe: 4559.99,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 7656.49,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 6784.17,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 30
+},
+{
+importe: 3974.15,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 49, "nombre": "Hannah Brennan"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 90
+},
+{
+importe: 6818.74,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 80
+},
+{
+importe: 7726.24,
+vendedor: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 6,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 829.66,
+vendedor: {"id": 50, "nombre": "Martin Edwards"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 9393.88,
+vendedor: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 4987.0,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 60
+},
+{
+importe: 9016.40,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 43.43,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 10,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 6334.59,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 1117.10,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 2156.15,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 60
+},
+{
+importe: 2647.61,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 70
+},
+{
+importe: 7.40,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 9129.72,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 4946.66,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 1208.88,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 4679.33,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 9321.94,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 9,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 9850.92,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 2, "nombre": "Sullivan Benton"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 9971.31,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 4801.50,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 50, "nombre": "Martin Edwards"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 2472.9,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 179.53,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 1349.9,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 2428.40,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 1311.14,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 57, "nombre": "Elliot Barton"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 4208.22,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 7787.18,
+vendedor: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 1,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 9126.66,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 49, "nombre": "Hannah Brennan"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 8704.24,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 2, "nombre": "Sullivan Benton"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6264.92,
+vendedor: {"id": 5, "nombre": "Giovanni Olson"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 7811.62,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 2005.28,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 5,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 5254.90,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 40
+},
+{
+importe: 4395.46,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 2335.14,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 9874.69,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 776.1,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 2, "nombre": "Sullivan Benton"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 70
+},
+{
+importe: 9984.43,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 3285.62,
+vendedor: {"id": 22, "nombre": "Blakely Newman"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 1,
+calificacionComprador: 8,
+comision: 70
+},
+{
+importe: 5315.44,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 70
+},
+{
+importe: 9984.54,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 96, "nombre": "Melina Thomas"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 9106.34,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 6,
+calificacionComprador: 10,
+comision: 10
+},
+{
+importe: 209.61,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 1210.5,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 3426.74,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 1682.87,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 80
+},
+{
+importe: 7241.76,
+vendedor: {"id": 91, "nombre": "Zechariah Munoz"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 4596.80,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7273.16,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 9033.70,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 1733.15,
+vendedor: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 10
+},
+{
+importe: 3669.26,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 2308.38,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 2312.54,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 3957.44,
+vendedor: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 4590.56,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 2092.33,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 639.92,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 1524.78,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 6,
+calificacionComprador: 4,
+comision: 50
+},
+{
+importe: 6437.55,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8933.88,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 3232.5,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 67, "nombre": "Konner Charles"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 30
+},
+{
+importe: 4042.94,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 8040.20,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 2, "nombre": "Sullivan Benton"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 50
+},
+{
+importe: 8908.61,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 285.48,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 4168.59,
+vendedor: {"id": 47, "nombre": "Alijah Raymond"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 30
+},
+{
+importe: 3958.69,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1186.75,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 2,
+calificacionComprador: 5,
+comision: 50
+},
+{
+importe: 1820.28,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 793.93,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 30
+},
+{
+importe: 3231.71,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 70
+},
+{
+importe: 6597.77,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 5602.2,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 2312.62,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 73, "nombre": "Jacoby Graham"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 30
+},
+{
+importe: 3813.3,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 30
+},
+{
+importe: 7604.2,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 50, "nombre": "Martin Edwards"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6000.47,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 90
+},
+{
+importe: 9984.79,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 80, "nombre": "Maxim Rollins"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 8627.4,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 1130.8,
+vendedor: {"id": 81, "nombre": "Matias Oconnor"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 7962.74,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 1,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 2272.31,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 50
+},
+{
+importe: 5780.36,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 3950.18,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 7806.60,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6542.16,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6437.34,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 897.2,
+vendedor: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 5,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 8767.72,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 6129.2,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 90
+},
+{
+importe: 7687.39,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 1575.58,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 4193.40,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 40
+},
+{
+importe: 5752.1,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 80
+},
+{
+importe: 8355.81,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 3,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 4994.91,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 52, "nombre": "Nasir Mathis"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 776.30,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 9331.56,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 3,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 155.43,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 10,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 7822.81,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 3787.37,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 10,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 8642.85,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 1012.19,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 5,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 316.25,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 1211.78,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 6799.68,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 30
+},
+{
+importe: 4741.54,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 9617.55,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 60
+},
+{
+importe: 3655.63,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 30
+},
+{
+importe: 3174.45,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 8121.50,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 1958.76,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 7182.24,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 7028.32,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 5987.33,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 4665.35,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 223.47,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 74, "nombre": "Harold Cruz"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 6916.46,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 70
+},
+{
+importe: 9438.36,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 20
+},
+{
+importe: 4379.80,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 20
+},
+{
+importe: 2309.9,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 5458.74,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 40
+},
+{
+importe: 3654.89,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 40
+},
+{
+importe: 6258.52,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 80
+},
+{
+importe: 7353.12,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 20
+},
+{
+importe: 3239.30,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 10,
+calificacionComprador: 6,
+comision: 50
+},
+{
+importe: 2174.37,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6296.67,
+vendedor: {"id": 88, "nombre": "Emilie David"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 3911.53,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 88, "nombre": "Emilie David"}, 
+calificacionVendedor: 5,
+calificacionComprador: 7,
+comision: 70
+},
+{
+importe: 5737.53,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8723.60,
+vendedor: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+comprador: {"id": 21, "nombre": "Miller Valentine"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6085.99,
+vendedor: {"id": 50, "nombre": "Martin Edwards"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 8544.43,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 973.81,
+vendedor: {"id": 62, "nombre": "Antonio Gardner"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 7213.65,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 2793.79,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 20
+},
+{
+importe: 1733.74,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 30
+},
+{
+importe: 9045.14,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 10,
+calificacionComprador: 7,
+comision: 80
+},
+{
+importe: 6695.91,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 5104.77,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 3140.48,
+vendedor: {"id": 100, "nombre": "Cash Le"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 1915.38,
+vendedor: {"id": 33, "nombre": "Aidyn Curry"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 3778.74,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6682.35,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 40
+},
+{
+importe: 4871.12,
+vendedor: {"id": 18, "nombre": "Zechariah Fisher"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 3748.36,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 4383.66,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 4,
+calificacionComprador: 9,
+comision: 70
+},
+{
+importe: 8393.40,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 9,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 3141.75,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 2109.65,
+vendedor: {"id": 80, "nombre": "Maxim Rollins"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 4259.5,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 30
+},
+{
+importe: 7121.47,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1801.39,
+vendedor: {"id": 47, "nombre": "Alijah Raymond"}, 
+comprador: {"id": 73, "nombre": "Jacoby Graham"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7271.31,
+vendedor: {"id": 50, "nombre": "Martin Edwards"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 4771.65,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 60, "nombre": "Meadow Ellison"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 5806.80,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 36, "nombre": "Kimora Finch"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 70
+},
+{
+importe: 6559.0,
+vendedor: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 7744.62,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 30
+},
+{
+importe: 7287.84,
+vendedor: {"id": 47, "nombre": "Alijah Raymond"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 5,
+calificacionComprador: 10,
+comision: 10
+},
+{
+importe: 8318.16,
+vendedor: {"id": 91, "nombre": "Zechariah Munoz"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 8713.7,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 40
+},
+{
+importe: 1367.29,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 4743.38,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 5091.34,
+vendedor: {"id": 100, "nombre": "Cash Le"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 80
+},
+{
+importe: 5464.32,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 755.65,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 3089.65,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 50
+},
+{
+importe: 5080.90,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 4229.66,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 6707.22,
+vendedor: {"id": 47, "nombre": "Alijah Raymond"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 60
+},
+{
+importe: 9278.46,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 5573.65,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 7168.31,
+vendedor: {"id": 100, "nombre": "Cash Le"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 8334.48,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 80
+},
+{
+importe: 5674.77,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 4,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 9195.29,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 461.65,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 90
+},
+{
+importe: 9160.30,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 20, "nombre": "Eduardo Donovan"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 7888.93,
+vendedor: {"id": 31, "nombre": "Mackenzie Gold"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 8,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 9956.95,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 5,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 1754.78,
+vendedor: {"id": 80, "nombre": "Maxim Rollins"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 10
+},
+{
+importe: 4203.25,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 5900.34,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 92, "nombre": "Raelynn Mejia"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 80
+},
+{
+importe: 7038.67,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 9,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2569.26,
+vendedor: {"id": 91, "nombre": "Zechariah Munoz"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 50
+},
+{
+importe: 4622.1,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 49, "nombre": "Hannah Brennan"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 1463.34,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 90
+},
+{
+importe: 7238.27,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 6182.33,
+vendedor: {"id": 22, "nombre": "Blakely Newman"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 80
+},
+{
+importe: 1923.65,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 10,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8136.79,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 60
+},
+{
+importe: 222.33,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 6, "nombre": "Skye Mayer"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 80
+},
+{
+importe: 189.87,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 5617.63,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 94, "nombre": "Beatrice Horn"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 20
+},
+{
+importe: 7706.10,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 90
+},
+{
+importe: 911.68,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 1891.70,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 4732.20,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 5172.21,
+vendedor: {"id": 61, "nombre": "Rory Johnson"}, 
+comprador: {"id": 80, "nombre": "Maxim Rollins"}, 
+calificacionVendedor: 3,
+calificacionComprador: 8,
+comision: 10
+},
+{
+importe: 6883.62,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 9024.7,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 6,
+calificacionComprador: 5,
+comision: 70
+},
+{
+importe: 5377.58,
+vendedor: {"id": 33, "nombre": "Aidyn Curry"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 7182.60,
+vendedor: {"id": 83, "nombre": "Desiree Joyner"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 30
+},
+{
+importe: 7318.33,
+vendedor: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 1094.56,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 1462.44,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 10
+},
+{
+importe: 6761.62,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 2012.24,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6307.79,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 2,
+calificacionComprador: 1,
+comision: 30
+},
+{
+importe: 2974.0,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 27, "nombre": "Tamia Bowen"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 10
+},
+{
+importe: 1874.61,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 73, "nombre": "Jacoby Graham"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 9748.67,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 6288.11,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 60
+},
+{
+importe: 9183.54,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 6325.6,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 30
+},
+{
+importe: 5460.89,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 60, "nombre": "Meadow Ellison"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 1682.51,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 70
+},
+{
+importe: 2878.89,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 20
+},
+{
+importe: 5128.2,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 10,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 4835.64,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 4248.16,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 6, "nombre": "Skye Mayer"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 601.4,
+vendedor: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+comprador: {"id": 80, "nombre": "Maxim Rollins"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 851.75,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 89, "nombre": "Adrien Barton"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 80
+},
+{
+importe: 6862.53,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 5,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 3015.62,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 40
+},
+{
+importe: 9900.94,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 70
+},
+{
+importe: 5078.18,
+vendedor: {"id": 1, "nombre": "Julito Gervasoni"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 6,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 8927.75,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 2, "nombre": "Sullivan Benton"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 4086.23,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 4268.24,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 4,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 3642.86,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 90
+},
+{
+importe: 7363.56,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 60, "nombre": "Meadow Ellison"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 20
+},
+{
+importe: 6516.2,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 6883.21,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 80, "nombre": "Maxim Rollins"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 9045.28,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6498.71,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 4,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 2055.7,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 90
+},
+{
+importe: 1956.83,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 20
+},
+{
+importe: 4006.44,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 6504.85,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 96, "nombre": "Melina Thomas"}, 
+calificacionVendedor: 7,
+calificacionComprador: 6,
+comision: 30
+},
+{
+importe: 207.57,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 5,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 7644.91,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 2883.21,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 2,
+calificacionComprador: 9,
+comision: 50
+},
+{
+importe: 5808.35,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 50
+},
+{
+importe: 6445.89,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 7325.51,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 63, "nombre": "Juniper Hudson"}, 
+calificacionVendedor: 4,
+calificacionComprador: 10,
+comision: 90
+},
+{
+importe: 1115.72,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 74, "nombre": "Harold Cruz"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 7434.39,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 6,
+calificacionComprador: 5,
+comision: 70
+},
+{
+importe: 6219.9,
+vendedor: {"id": 5, "nombre": "Giovanni Olson"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 5,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 3483.38,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 70
+},
+{
+importe: 1304.73,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 10, "nombre": "Karissa Hatfield"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 10
+},
+{
+importe: 1906.87,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 8744.41,
+vendedor: {"id": 88, "nombre": "Emilie David"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 2957.69,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 3109.64,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 2493.6,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 20
+},
+{
+importe: 114.8,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 4680.83,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 80
+},
+{
+importe: 8233.77,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 90
+},
+{
+importe: 4615.66,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 6, "nombre": "Skye Mayer"}, 
+calificacionVendedor: 6,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 8553.66,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 6457.35,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 4822.21,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 50
+},
+{
+importe: 3048.22,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 5793.1,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 2489.41,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 89, "nombre": "Adrien Barton"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 20
+},
+{
+importe: 770.95,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 6509.44,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 1934.82,
+vendedor: {"id": 91, "nombre": "Zechariah Munoz"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 60
+},
+{
+importe: 1411.26,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 7,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8695.28,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 7433.71,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 20, "nombre": "Eduardo Donovan"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 7687.48,
+vendedor: {"id": 33, "nombre": "Aidyn Curry"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 8073.49,
+vendedor: {"id": 52, "nombre": "Nasir Mathis"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 90
+},
+{
+importe: 6825.91,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 60
+},
+{
+importe: 6936.75,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 7218.64,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 9352.86,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 90
+},
+{
+importe: 7017.17,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 60, "nombre": "Meadow Ellison"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 70
+},
+{
+importe: 8477.80,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 70
+},
+{
+importe: 9547.70,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 5,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 8089.25,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 92, "nombre": "Raelynn Mejia"}, 
+calificacionVendedor: 3,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 4839.37,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 2,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 9625.72,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 50
+},
+{
+importe: 6138.0,
+vendedor: {"id": 43, "nombre": "Talia Raymond"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 6528.48,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 5,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 2717.96,
+vendedor: {"id": 5, "nombre": "Giovanni Olson"}, 
+comprador: {"id": 66, "nombre": "Dalia Humphrey"}, 
+calificacionVendedor: 7,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 7654.3,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 3623.12,
+vendedor: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 3,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 3358.28,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 73, "nombre": "Jacoby Graham"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 1646.73,
+vendedor: {"id": 61, "nombre": "Rory Johnson"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 6,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 680.90,
+vendedor: {"id": 36, "nombre": "Kimora Finch"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 8,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 118.12,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 7758.58,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 60
+},
+{
+importe: 4381.0,
+vendedor: {"id": 85, "nombre": "Brett Henry"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 5835.16,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 50
+},
+{
+importe: 5911.27,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 35, "nombre": "Elle Marshall"}, 
+calificacionVendedor: 8,
+calificacionComprador: 3,
+comision: 60
+},
+{
+importe: 8426.89,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 4, "nombre": "Jillian Wolfe"}, 
+calificacionVendedor: 10,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 5292.69,
+vendedor: {"id": 19, "nombre": "Karlie Hartman"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 110.32,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 10
+},
+{
+importe: 1938.51,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 90
+},
+{
+importe: 6827.86,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 53, "nombre": "Khalil Boyer"}, 
+calificacionVendedor: 9,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 4189.26,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 92, "nombre": "Raelynn Mejia"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 5373.78,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 736.19,
+vendedor: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 2,
+calificacionComprador: 1,
+comision: 30
+},
+{
+importe: 717.63,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 13, "nombre": "Alivia Blackwell"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 60
+},
+{
+importe: 2662.13,
+vendedor: {"id": 67, "nombre": "Konner Charles"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 70
+},
+{
+importe: 3304.26,
+vendedor: {"id": 55, "nombre": "Camille Wolfe"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 3,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 8400.72,
+vendedor: {"id": 38, "nombre": "Kyler Cunningham"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 8779.92,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 4,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 6241.6,
+vendedor: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+comprador: {"id": 9, "nombre": "Ryder Walls"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 80
+},
+{
+importe: 6454.12,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 7230.11,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 78, "nombre": "Jeremy Glenn"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 5439.54,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 22, "nombre": "Blakely Newman"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 894.48,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 3,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 2586.0,
+vendedor: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1566.55,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 90
+},
+{
+importe: 5872.24,
+vendedor: {"id": 64, "nombre": "Jefferson Craft"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 4067.17,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 3898.56,
+vendedor: {"id": 10, "nombre": "Karissa Hatfield"}, 
+comprador: {"id": 55, "nombre": "Camille Wolfe"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 10
+},
+{
+importe: 243.37,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 10
+},
+{
+importe: 5470.90,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 7,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 6012.81,
+vendedor: {"id": 78, "nombre": "Jeremy Glenn"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 7584.58,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 2,
+calificacionComprador: 4,
+comision: 60
+},
+{
+importe: 3817.29,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 3,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 1902.52,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 83, "nombre": "Desiree Joyner"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 8434.17,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 74, "nombre": "Harold Cruz"}, 
+calificacionVendedor: 10,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 1377.53,
+vendedor: {"id": 76, "nombre": "Hana Kent"}, 
+comprador: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 5842.71,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 10
+},
+{
+importe: 9258.71,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 3484.70,
+vendedor: {"id": 66, "nombre": "Dalia Humphrey"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 3,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 7049.97,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 49, "nombre": "Hannah Brennan"}, 
+calificacionVendedor: 4,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 4012.57,
+vendedor: {"id": 3, "nombre": "Quinten Buck"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 4807.86,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 68, "nombre": "Tyrell Duke"}, 
+calificacionVendedor: 3,
+calificacionComprador: 10,
+comision: 10
+},
+{
+importe: 3555.86,
+vendedor: {"id": 5, "nombre": "Giovanni Olson"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 1694.52,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 2,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 3813.82,
+vendedor: {"id": 46, "nombre": "Ethan Dunlap"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 10
+},
+{
+importe: 6374.38,
+vendedor: {"id": 13, "nombre": "Alivia Blackwell"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 4,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 3248.93,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 89, "nombre": "Adrien Barton"}, 
+calificacionVendedor: 3,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 4312.97,
+vendedor: {"id": 47, "nombre": "Alijah Raymond"}, 
+comprador: {"id": 58, "nombre": "Natalie Macdonald"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 40
+},
+{
+importe: 5736.1,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 59, "nombre": "Ayana Larsen"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 2112.25,
+vendedor: {"id": 14, "nombre": "Khloe Todd"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 10
+},
+{
+importe: 3300.95,
+vendedor: {"id": 45, "nombre": "Gideon Knowles"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 60
+},
+{
+importe: 6169.55,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 4,
+comision: 60
+},
+{
+importe: 1318.64,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 30
+},
+{
+importe: 2577.98,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 4,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 7452.34,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 20
+},
+{
+importe: 6859.86,
+vendedor: {"id": 99, "nombre": "Farrah Neal"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 2,
+calificacionComprador: 6,
+comision: 30
+},
+{
+importe: 6868.97,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 75, "nombre": "Lola Stafford"}, 
+calificacionVendedor: 4,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 9432.74,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 12, "nombre": "Lennon Rodriguez"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 9786.47,
+vendedor: {"id": 30, "nombre": "Asher Burris"}, 
+comprador: {"id": 23, "nombre": "Dangelo Hogan"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 80
+},
+{
+importe: 7282.55,
+vendedor: {"id": 49, "nombre": "Hannah Brennan"}, 
+comprador: {"id": 84, "nombre": "Kaiya Wilson"}, 
+calificacionVendedor: 5,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 7269.16,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+calificacionVendedor: 1,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 5192.38,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 4992.40,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 70
+},
+{
+importe: 7036.74,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 9768.90,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 1,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 5122.6,
+vendedor: {"id": 68, "nombre": "Tyrell Duke"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 3899.31,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 40
+},
+{
+importe: 4594.53,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 41, "nombre": "Kieran Gray"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 4596.95,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 2,
+calificacionComprador: 1,
+comision: 20
+},
+{
+importe: 1118.76,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 50
+},
+{
+importe: 7908.58,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 40
+},
+{
+importe: 1715.6,
+vendedor: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+comprador: {"id": 25, "nombre": "Sabrina Dudley"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 6112.62,
+vendedor: {"id": 88, "nombre": "Emilie David"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 5,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 9937.71,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 57, "nombre": "Elliot Barton"}, 
+calificacionVendedor: 8,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 9504.29,
+vendedor: {"id": 82, "nombre": "Esperanza Hardy"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 7880.32,
+vendedor: {"id": 57, "nombre": "Elliot Barton"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 7,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 6110.17,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 45, "nombre": "Gideon Knowles"}, 
+calificacionVendedor: 9,
+calificacionComprador: 4,
+comision: 40
+},
+{
+importe: 1337.36,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 8,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 8703.81,
+vendedor: {"id": 7, "nombre": "Kaylyn Frye"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 70
+},
+{
+importe: 3985.18,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 4,
+calificacionComprador: 2,
+comision: 80
+},
+{
+importe: 2160.71,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 90
+},
+{
+importe: 8749.42,
+vendedor: {"id": 16, "nombre": "Nevaeh Hunter"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 9,
+calificacionComprador: 9,
+comision: 80
+},
+{
+importe: 2111.65,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 50
+},
+{
+importe: 3188.72,
+vendedor: {"id": 74, "nombre": "Harold Cruz"}, 
+comprador: {"id": 46, "nombre": "Ethan Dunlap"}, 
+calificacionVendedor: 6,
+calificacionComprador: 6,
+comision: 50
+},
+{
+importe: 2012.93,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 50
+},
+{
+importe: 5232.67,
+vendedor: {"id": 63, "nombre": "Juniper Hudson"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 2760.29,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 18, "nombre": "Zechariah Fisher"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 70
+},
+{
+importe: 4414.38,
+vendedor: {"id": 96, "nombre": "Melina Thomas"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 6,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 4487.35,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 10,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2203.54,
+vendedor: {"id": 72, "nombre": "Misael Vazquez"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 50
+},
+{
+importe: 6923.3,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 17, "nombre": "Olivia Ayers"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 4437.33,
+vendedor: {"id": 93, "nombre": "Jillian Oneill"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 2680.50,
+vendedor: {"id": 41, "nombre": "Kieran Gray"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2593.4,
+vendedor: {"id": 6, "nombre": "Skye Mayer"}, 
+comprador: {"id": 56, "nombre": "Nasir Shepherd"}, 
+calificacionVendedor: 4,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 5936.55,
+vendedor: {"id": 95, "nombre": "Amiyah Travis"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 1,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 8173.53,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 26, "nombre": "Alonso Sparks"}, 
+calificacionVendedor: 4,
+calificacionComprador: 1,
+comision: 40
+},
+{
+importe: 107.26,
+vendedor: {"id": 89, "nombre": "Adrien Barton"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 8,
+calificacionComprador: 7,
+comision: 0
+},
+{
+importe: 1165.22,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 3,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 8535.19,
+vendedor: {"id": 75, "nombre": "Lola Stafford"}, 
+comprador: {"id": 79, "nombre": "Luna Cooke"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 1638.29,
+vendedor: {"id": 56, "nombre": "Nasir Shepherd"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 7905.91,
+vendedor: {"id": 53, "nombre": "Khalil Boyer"}, 
+comprador: {"id": 95, "nombre": "Amiyah Travis"}, 
+calificacionVendedor: 10,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 5032.32,
+vendedor: {"id": 32, "nombre": "Rene Lee"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 9,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 3262.86,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 8, "nombre": "Jewel Drake"}, 
+calificacionVendedor: 10,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 6058.48,
+vendedor: {"id": 33, "nombre": "Aidyn Curry"}, 
+comprador: {"id": 52, "nombre": "Nasir Mathis"}, 
+calificacionVendedor: 10,
+calificacionComprador: 4,
+comision: 30
+},
+{
+importe: 3625.93,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 82, "nombre": "Esperanza Hardy"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 6031.9,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 62, "nombre": "Antonio Gardner"}, 
+calificacionVendedor: 1,
+calificacionComprador: 3,
+comision: 20
+},
+{
+importe: 3517.69,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 14, "nombre": "Khloe Todd"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 440.53,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 93, "nombre": "Jillian Oneill"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 60
+},
+{
+importe: 1926.88,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 28, "nombre": "Leandro Alston"}, 
+calificacionVendedor: 2,
+calificacionComprador: 5,
+comision: 70
+},
+{
+importe: 1303.78,
+vendedor: {"id": 15, "nombre": "Sarai Lester"}, 
+comprador: {"id": 47, "nombre": "Alijah Raymond"}, 
+calificacionVendedor: 6,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 8751.69,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 27, "nombre": "Tamia Bowen"}, 
+calificacionVendedor: 6,
+calificacionComprador: 9,
+comision: 40
+},
+{
+importe: 6272.86,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 57, "nombre": "Elliot Barton"}, 
+calificacionVendedor: 4,
+calificacionComprador: 2,
+comision: 50
+},
+{
+importe: 2520.19,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 39, "nombre": "Ian Conway"}, 
+calificacionVendedor: 2,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 2786.6,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 60
+},
+{
+importe: 3766.94,
+vendedor: {"id": 48, "nombre": "Jacqueline Valdez"}, 
+comprador: {"id": 92, "nombre": "Raelynn Mejia"}, 
+calificacionVendedor: 9,
+calificacionComprador: 8,
+comision: 80
+},
+{
+importe: 5978.13,
+vendedor: {"id": 25, "nombre": "Sabrina Dudley"}, 
+comprador: {"id": 37, "nombre": "Julius Meyers"}, 
+calificacionVendedor: 6,
+calificacionComprador: 2,
+comision: 10
+},
+{
+importe: 2735.23,
+vendedor: {"id": 42, "nombre": "Jorge Hartman"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 4564.61,
+vendedor: {"id": 44, "nombre": "Perla Saunders"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 7,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2347.0,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 38, "nombre": "Kyler Cunningham"}, 
+calificacionVendedor: 1,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 2581.78,
+vendedor: {"id": 88, "nombre": "Emilie David"}, 
+comprador: {"id": 29, "nombre": "Princess Johns"}, 
+calificacionVendedor: 10,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 432.63,
+vendedor: {"id": 60, "nombre": "Meadow Ellison"}, 
+comprador: {"id": 85, "nombre": "Brett Henry"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2122.25,
+vendedor: {"id": 17, "nombre": "Olivia Ayers"}, 
+comprador: {"id": 86, "nombre": "Gracie Ingram"}, 
+calificacionVendedor: 6,
+calificacionComprador: 7,
+comision: 30
+},
+{
+importe: 4336.74,
+vendedor: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+comprador: {"id": 100, "nombre": "Cash Le"}, 
+calificacionVendedor: 2,
+calificacionComprador: 7,
+comision: 40
+},
+{
+importe: 6017.92,
+vendedor: {"id": 2, "nombre": "Sullivan Benton"}, 
+comprador: {"id": 98, "nombre": "Zariyah Mcfadden"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 8589.14,
+vendedor: {"id": 26, "nombre": "Alonso Sparks"}, 
+comprador: {"id": 15, "nombre": "Sarai Lester"}, 
+calificacionVendedor: 10,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 5607.99,
+vendedor: {"id": 94, "nombre": "Beatrice Horn"}, 
+comprador: {"id": 1, "nombre": "Julito Gervasoni"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 20
+},
+{
+importe: 3947.18,
+vendedor: {"id": 9, "nombre": "Ryder Walls"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 3,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 210.79,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 20
+},
+{
+importe: 5885.56,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 4,
+calificacionComprador: 9,
+comision: 80
+},
+{
+importe: 6374.80,
+vendedor: {"id": 23, "nombre": "Dangelo Hogan"}, 
+comprador: {"id": 40, "nombre": "Yehuda Lowery"}, 
+calificacionVendedor: 4,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 1291.62,
+vendedor: {"id": 86, "nombre": "Gracie Ingram"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 2,
+calificacionComprador: 8,
+comision: 10
+},
+{
+importe: 6477.48,
+vendedor: {"id": 8, "nombre": "Jewel Drake"}, 
+comprador: {"id": 13, "nombre": "Alivia Blackwell"}, 
+calificacionVendedor: 3,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 2862.46,
+vendedor: {"id": 84, "nombre": "Kaiya Wilson"}, 
+comprador: {"id": 43, "nombre": "Talia Raymond"}, 
+calificacionVendedor: 6,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 9278.93,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 10,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 1523.14,
+vendedor: {"id": 100, "nombre": "Cash Le"}, 
+comprador: {"id": 7, "nombre": "Kaylyn Frye"}, 
+calificacionVendedor: 7,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 678.80,
+vendedor: {"id": 22, "nombre": "Blakely Newman"}, 
+comprador: {"id": 44, "nombre": "Perla Saunders"}, 
+calificacionVendedor: 3,
+calificacionComprador: 5,
+comision: 80
+},
+{
+importe: 2564.70,
+vendedor: {"id": 77, "nombre": "Lilyanna Ball"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 8593.41,
+vendedor: {"id": 73, "nombre": "Jacoby Graham"}, 
+comprador: {"id": 42, "nombre": "Jorge Hartman"}, 
+calificacionVendedor: 10,
+calificacionComprador: 8,
+comision: 0
+},
+{
+importe: 2690.11,
+vendedor: {"id": 59, "nombre": "Ayana Larsen"}, 
+comprador: {"id": 64, "nombre": "Jefferson Craft"}, 
+calificacionVendedor: 1,
+calificacionComprador: 10,
+comision: 20
+},
+{
+importe: 1336.56,
+vendedor: {"id": 50, "nombre": "Martin Edwards"}, 
+comprador: {"id": 72, "nombre": "Misael Vazquez"}, 
+calificacionVendedor: 9,
+calificacionComprador: 3,
+comision: 90
+},
+{
+importe: 2496.54,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 19, "nombre": "Karlie Hartman"}, 
+calificacionVendedor: 10,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 8249.41,
+vendedor: {"id": 27, "nombre": "Tamia Bowen"}, 
+comprador: {"id": 51, "nombre": "Jax Nieves"}, 
+calificacionVendedor: 7,
+calificacionComprador: 8,
+comision: 40
+},
+{
+importe: 4200.98,
+vendedor: {"id": 70, "nombre": "Elliott Fischer"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 7,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 7069.44,
+vendedor: {"id": 37, "nombre": "Julius Meyers"}, 
+comprador: {"id": 77, "nombre": "Lilyanna Ball"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 0
+},
+{
+importe: 4335.75,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 3, "nombre": "Quinten Buck"}, 
+calificacionVendedor: 2,
+calificacionComprador: 10,
+comision: 0
+},
+{
+importe: 7127.80,
+vendedor: {"id": 4, "nombre": "Jillian Wolfe"}, 
+comprador: {"id": 69, "nombre": "Brysen Olsen"}, 
+calificacionVendedor: 4,
+calificacionComprador: 10,
+comision: 80
+},
+{
+importe: 5685.50,
+vendedor: {"id": 79, "nombre": "Luna Cooke"}, 
+comprador: {"id": 32, "nombre": "Rene Lee"}, 
+calificacionVendedor: 8,
+calificacionComprador: 8,
+comision: 80
+},
+{
+importe: 1129.74,
+vendedor: {"id": 35, "nombre": "Elle Marshall"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 5,
+calificacionComprador: 7,
+comision: 50
+},
+{
+importe: 6304.11,
+vendedor: {"id": 34, "nombre": "Ace Bean"}, 
+comprador: {"id": 5, "nombre": "Giovanni Olson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 9,
+comision: 10
+},
+{
+importe: 5286.41,
+vendedor: {"id": 39, "nombre": "Ian Conway"}, 
+comprador: {"id": 99, "nombre": "Farrah Neal"}, 
+calificacionVendedor: 8,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 624.93,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 87, "nombre": "Kamille Fuentes"}, 
+calificacionVendedor: 1,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 1848.81,
+vendedor: {"id": 19, "nombre": "Karlie Hartman"}, 
+comprador: {"id": 81, "nombre": "Matias Oconnor"}, 
+calificacionVendedor: 10,
+calificacionComprador: 2,
+comision: 0
+},
+{
+importe: 994.48,
+vendedor: {"id": 69, "nombre": "Brysen Olsen"}, 
+comprador: {"id": 34, "nombre": "Ace Bean"}, 
+calificacionVendedor: 5,
+calificacionComprador: 6,
+comision: 10
+},
+{
+importe: 2707.33,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 54, "nombre": "Crystal Wilkerson"}, 
+calificacionVendedor: 9,
+calificacionComprador: 5,
+comision: 90
+},
+{
+importe: 8868.26,
+vendedor: {"id": 87, "nombre": "Kamille Fuentes"}, 
+comprador: {"id": 36, "nombre": "Kimora Finch"}, 
+calificacionVendedor: 7,
+calificacionComprador: 7,
+comision: 10
+},
+{
+importe: 248.25,
+vendedor: {"id": 58, "nombre": "Natalie Macdonald"}, 
+comprador: {"id": 61, "nombre": "Rory Johnson"}, 
+calificacionVendedor: 3,
+calificacionComprador: 1,
+comision: 0
+},
+{
+importe: 2298.37,
+vendedor: {"id": 51, "nombre": "Jax Nieves"}, 
+comprador: {"id": 70, "nombre": "Elliott Fischer"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 1184.80,
+vendedor: {"id": 90, "nombre": "Mike Sargent"}, 
+comprador: {"id": 31, "nombre": "Mackenzie Gold"}, 
+calificacionVendedor: 6,
+calificacionComprador: 1,
+comision: 70
+},
+{
+importe: 3814.47,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 80, "nombre": "Maxim Rollins"}, 
+calificacionVendedor: 8,
+calificacionComprador: 10,
+comision: 30
+},
+{
+importe: 9005.46,
+vendedor: {"id": 29, "nombre": "Princess Johns"}, 
+comprador: {"id": 91, "nombre": "Zechariah Munoz"}, 
+calificacionVendedor: 5,
+calificacionComprador: 8,
+comision: 60
+},
+{
+importe: 1843.30,
+vendedor: {"id": 24, "nombre": "Jayleen Armstrong"}, 
+comprador: {"id": 76, "nombre": "Hana Kent"}, 
+calificacionVendedor: 9,
+calificacionComprador: 6,
+comision: 60
+},
+{
+importe: 2136.35,
+vendedor: {"id": 20, "nombre": "Eduardo Donovan"}, 
+comprador: {"id": 30, "nombre": "Asher Burris"}, 
+calificacionVendedor: 3,
+calificacionComprador: 3,
+comision: 0
+},
+{
+importe: 4115.78,
+vendedor: {"id": 28, "nombre": "Leandro Alston"}, 
+comprador: {"id": 11, "nombre": "Leonardo Valenzuela"}, 
+calificacionVendedor: 8,
+calificacionComprador: 9,
+comision: 0
+},
+{
+importe: 162.88,
+vendedor: {"id": 71, "nombre": "Kendall Castaneda"}, 
+comprador: {"id": 33, "nombre": "Aidyn Curry"}, 
+calificacionVendedor: 2,
+calificacionComprador: 3,
+comision: 40
+},
+{
+importe: 3920.85,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 65, "nombre": "Jaylynn Terrell"}, 
+calificacionVendedor: 2,
+calificacionComprador: 5,
+comision: 10
+},
+{
+importe: 6800.87,
+vendedor: {"id": 21, "nombre": "Miller Valentine"}, 
+comprador: {"id": 97, "nombre": "Dorothy Lambert"}, 
+calificacionVendedor: 1,
+calificacionComprador: 6,
+comision: 0
+},
+{
+importe: 5807.54,
+vendedor: {"id": 97, "nombre": "Dorothy Lambert"}, 
+comprador: {"id": 71, "nombre": "Kendall Castaneda"}, 
+calificacionVendedor: 6,
+calificacionComprador: 5,
+comision: 0
+},
+{
+importe: 7082.21,
+vendedor: {"id": 40, "nombre": "Yehuda Lowery"}, 
+comprador: {"id": 90, "nombre": "Mike Sargent"}, 
+calificacionVendedor: 5,
+calificacionComprador: 4,
+comision: 90
+}
+]

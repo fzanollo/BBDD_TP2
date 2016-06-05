@@ -19,11 +19,11 @@ var mapFunctionD = function(){
 
 var reduceFunctionD = function(year, facturaciones){
 	
-	var facturacionesFlattened = 0;
 	facturacionesFlattened = facturaciones.reduce(function(a, b){return a.concat(b)}, []);
 
 	facturacionAnual = Array.sum(facturacionesFlattened);
-	return (facturacionAnual);
+
+	return facturacionAnual;
 }
 
 db.Facturas.mapReduce( mapFunctionD, reduceFunctionD, {out: "mapReduceD"} )

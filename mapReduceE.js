@@ -5,13 +5,13 @@ var mapFunctionE = function(){
 		var abono = this.abonoFijo.abono;
 		facturaciones.push(abono);
 	
-		// if(this.hasOwnProperty('comisiones')){
-		// 	var comisiones = this.comisiones;
+		if(this.hasOwnProperty('comisiones')){
+			var comisiones = this.comisiones;
 
-		// 	for (var i = 0; i < comisiones.length; i++) {
-		// 		facturaciones.push(comisiones[i].comision)
-		// 	}
-		// }
+			for (var i = 0; i < comisiones.length; i++) {
+				facturaciones.push(comisiones[i].comision)
+			}
+		}
 
 		emit(this.fecha.slice(this.fecha.length-2, this.fecha.length), facturaciones)
 	}

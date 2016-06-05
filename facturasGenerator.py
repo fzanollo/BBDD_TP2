@@ -57,7 +57,7 @@ for months in range(intervalQuantity):
 			factura += ',\n"comisiones": ['
 
 			for i in range(0, cantComision):
-				comision = str(randint(1, 100)) + '.' + str(randint(10, 99)) 
+				comision = str(randint(1, 100)) + '.' + str(randint(0, 99)) 
 
 				factura += '{ "titulo": "' + str(titulos_list.pop()['titulo']) + '", "comision": ' + comision + '}'
 
