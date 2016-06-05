@@ -21,7 +21,6 @@ var reduceFunctionD = function(year, facturaciones){
 	
 	var facturacionesFlattened = 0;
 	facturacionesFlattened = facturaciones.reduce(function(a, b){return a.concat(b)}, []);
-	//var facturacionesFlattened = [].concat.apply([], facturaciones);
 
 	facturacionAnual = Array.sum(facturacionesFlattened);
 	return (facturacionAnual);
