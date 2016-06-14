@@ -6,7 +6,7 @@ var mapFunctionB = function(){
 var reduceFunctionB = function(userId, calificaciones){
 	suma = Array.sum(calificaciones);
 	promedio = suma / calificaciones.length
-	return promedio.toFixed(2);
+	return promedio;
 }
 
 db.Ventas.mapReduce( mapFunctionB, reduceFunctionB, {out: "mapReduceB"} )

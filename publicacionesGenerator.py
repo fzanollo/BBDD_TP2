@@ -3,7 +3,7 @@ from random import random, randint, randrange
 from pprint import pprint
 
 # TIPOS DE PUBLICACION
-tiposDePublicacion = ['servicios', 'productos', 'mixta']
+tiposDePublicacion = ['"servicios"', '"productos"', '"mixta"']
 
 # LOAD DATA FROM JSON
 titulos_list = json.load(open('titulos.json'))
@@ -23,13 +23,13 @@ for i in range(cantPublicacionesAGenerar):
 
 	#id
 	pId = i+1
-	publicacion += 'id: ' + str(pId) + ',\n'
+	publicacion += '"id": ' + str(pId) + ',\n'
 
 	titulo = '"' + str(titulos_list.pop()['titulo']) + '"'
-	publicacion += 'titulo: ' + titulo + ',\n'
+	publicacion += '"titulo": ' + titulo + ',\n'
 
 	tipoDePublicacion = tiposDePublicacion[randint(0, 2)]
-	publicacion += 'tipoDePublicacion: ' + tipoDePublicacion
+	publicacion += '"tipoDePublicacion": ' + tipoDePublicacion
 
 	publicacion += '\n}'
 
