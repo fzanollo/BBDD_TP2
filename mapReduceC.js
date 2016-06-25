@@ -1,5 +1,5 @@
 var mapFunctionC = function(){
-	emit(1, [this.publicacionId, this.importe * this.comision / 100]);
+	emit(1, [this.id, this.importe * this.comision / 100]);
 };
 
 var reduceFunctionC = function(key, operaciones){
@@ -11,10 +11,10 @@ var reduceFunctionC = function(key, operaciones){
 	}
 
 	for (var i = 0; i < operaciones.length; i++) {
-		if(operaciones[i][1] == comisionMax) operacionesConMaxComision.push(operaciones[i]);
+		//operacionesConMaxComision += operaciones[i][0].toString() + ', ';
 	}
 
-	return operacionesConMaxComision;
+	return operaciones.length;
 }
 
 db.Ventas.mapReduce( mapFunctionC, reduceFunctionC, {out: "mapReduceC"} )
