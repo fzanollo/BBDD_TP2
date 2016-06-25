@@ -1,0 +1,1594 @@
+MongoDB shell version: 3.0.12
+connecting to: localhost:10004/test
+mongos> use admin[9G[Juse admin[18G
+switched to db admin
+mongos> db.runCommand({addshard:"localhost:10000", name:"shard10000"});[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[72G
+{ "shardAdded" : "shard10000", "ok" : 1 }
+mongos> db.runCommand({addshard:"localhost:10000", name:"shard10000"});[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[71G[9G[Jdb.runCommand[1;34m([0m{addshard:"localhost:10000", name:"shard10000"});[70G[9G[Jdb.runCommand([1;34m{[0maddshard:"localhost:10000", name:"shard10000"});[69G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard1000"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[66G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[65G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[64G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[63G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[62G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[61G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[60G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[59G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[58G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[57G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[56G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[55G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[54G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[53G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[52G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[51G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[50G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[49G[9G[Jdb.runCommand({addshard:"localhost:1000", name:"shard10001"});[48G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[49G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[72G
+{ "shardAdded" : "shard10001", "ok" : 1 }
+mongos> db.runCommand({addshard:"localhost:10000", name:"shard10000"});[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[71G[9G[Jdb.runCommand[1;34m([0m{addshard:"localhost:10000", name:"shard10000"});[70G[9G[Jdb.runCommand([1;34m{[0maddshard:"localhost:10000", name:"shard10000"});[69G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard1000"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[66G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[65G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[64G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[63G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[62G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[61G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[60G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[59G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[58G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[57G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[56G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[55G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[54G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[53G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[52G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[51G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[50G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[49G[9G[Jdb.runCommand({addshard:"localhost:1000", name:"shard10002"});[48G[9G[Jdb.runCommand({addshard:"localhost:10002", name:"shard10002"});[49G[9G[Jdb.runCommand({addshard:"localhost:10002", name:"shard10002"});[72G
+{ "shardAdded" : "shard10002", "ok" : 1 }
+mongos> use tp_sharding[9G[Juse tp_sharding[24G
+switched to db tp_sharding
+mongos> sh.enableSharding("tp_sharding")[9G[Jsh.enableSharding("tp_sharding")[41G
+{ "ok" : 1 }
+mongos> db.collection.createIndex()[9G[Jdb.collection.createIndex[1;34m([0m)[35G[9G[Jdb.collection.createIndex([1;34m{[0m)[36G[9G[Jdb.collection.createIndex[1;34m([0m{})[37G[9G[Jdb.collection.createIndex([1;34m{[0m})[36G[9G[Jdb.collection.createIndex([1;34m{[0m"})[37G[9G[Jdb.collection.createIndex([1;34m{[0m"f})[38G[9G[Jdb.collection.createIndex([1;34m{[0m"fe})[39G[9G[Jdb.collection.createIndex([1;34m{[0m"fec})[40G[9G[Jdb.collection.createIndex([1;34m{[0m"fech})[41G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha})[42G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha"})[43G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha":})[44G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha": })[45G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha": 1})[46G[9G[Jdb.collection.createIndex[1;34m([0m{"fecha": 1})[47G[9G[Jdb.collection.createIndex({"fecha": 1})[48G[9G[Jdb.collection.createIndex({"fecha": 1})[48G
+{
+	"raw" : {
+		"localhost:10000" : {
+			"createdCollectionAutomatically" : true,
+			"numIndexesBefore" : 1,
+			"numIndexesAfter" : 2,
+			"ok" : 1
+		}
+	},
+	"ok" : 1
+}
+mongos> sh.shardCollection("tp_sharding.people", {"zip": 1} )[9G[Jsh.shardCollection[1;34m([0m"tp_sharding.people", {"zip": 1} )[61G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[60G[9G[Jsh.shardCollection("tp_sharding.people", [1;34m{[0m"zip": 1} )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[58G[9G[Jsh.shardCollection("tp_sharding.people", [1;34m{[0m"zip": 1} )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[60G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1 )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"zip":  )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"zip" )[56G[9G[Jsh.shardCollection("tp_sharding.people", {"zip )[55G[9G[Jsh.shardCollection("tp_sharding.people", {"zi )[54G[9G[Jsh.shardCollection("tp_sharding.people", {"z )[53G[9G[Jsh.shardCollection("tp_sharding.people", {" )[52G[9G[Jsh.shardCollection("tp_sharding.people", { )[51G[9G[Jsh.shardCollection("tp_sharding.people",  )[50G[9G[Jsh.shardCollection("tp_sharding.people", { )[51G[9G[Jsh.shardCollection("tp_sharding.people", {" )[52G[9G[Jsh.shardCollection("tp_sharding.people", {"f )[53G[9G[Jsh.shardCollection("tp_sharding.people", {"fe )[54G[9G[Jsh.shardCollection("tp_sharding.people", {"fec )[55G[9G[Jsh.shardCollection("tp_sharding.people", {"fech )[56G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha" )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha":  )[60G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1 )[61G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[62G[9G[Jsh.shardCollection("tp_sharding.people", [1;34m{[0m"fecha": 1} )[61G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[60G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[56G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[55G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[54G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[53G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[52G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[51G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1[1;34m}[0m )[50G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[49G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[48G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[47G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[45G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[47G[9G[Jsh.shardCollection("tp_sharding.peopl", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.peop", {"fecha": 1} )[45G[9G[Jsh.shardCollection("tp_sharding.peo", {"fecha": 1} )[44G[9G[Jsh.shardCollection("tp_sharding.pe", {"fecha": 1} )[43G[9G[Jsh.shardCollection("tp_sharding.p", {"fecha": 1} )[42G[9G[Jsh.shardCollection("tp_sharding.pu", {"fecha": 1} )[43G[9G[Jsh.shardCollection("tp_sharding.pub", {"fecha": 1} )[44G[9G[Jsh.shardCollection("tp_sharding.publ", {"fecha": 1} )[45G[9G[Jsh.shardCollection("tp_sharding.publi", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.public", {"fecha": 1} )[47G[9G[Jsh.shardCollection("tp_sharding.publica", {"fecha": 1} )[48G[9G[Jsh.shardCollection("tp_sharding.publicac", {"fecha": 1} )[49G[9G[Jsh.shardCollection("tp_sharding.publicaci", {"fecha": 1} )[50G[9G[Jsh.shardCollection("tp_sharding.publicacio", {"fecha": 1} )[51G[9G[Jsh.shardCollection("tp_sharding.publicacion", {"fecha": 1} )[52G[9G[Jsh.shardCollection("tp_sharding.publicacione", {"fecha": 1} )[53G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"fecha": 1} )[54G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"fecha": 1} )[71G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"fecha": 1} )[71G
+{ "collectionsharded" : "tp_sharding.publicaciones", "ok" : 1 }
+mongos> sh.status()[9G[Jsh.status()[20G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		No recent migrations
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(1, 0) 
+
+mongos> db.publicaciones.getShardDistribution()[9G[Jdb.publicaciones.getShardDistribution()[48G
+
+Shard shard10000 at localhost:10000
+ data : 0B docs : 0 chunks : 1
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Totals
+ data : 0B docs : 0 chunks : 1
+ Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
+
+
+mongos> var randomDate = function randomDate() {[9G[Jvar randomDate = function randomDate() {[49G... var startDate = new Date(2010, 1, 1, 0, 0, 0, 0);[5G[Jvar startDate = new Date(2010, 1, 1, 0, 0, 0, 0);[54G... var endDate = new Date(2014, 12, 31, 0, 0, 0, 0);[5G[Jvar endDate = new Date(2014, 12, 31, 0, 0, 0, 0);[54G... [5G[J[5G... var date = new Date(+startDate + Math.random() * (endDate - startDate));[5G[Jvar date = new Date(+startDate + Math.random() * (endDate - startDate));[77G... var hour = 0 + Math.random() * (11 - 0) | 0;[5G[Jvar hour = 0 + Math.random() * (11 - 0) | 0;[49G... date.setHours(hour);[5G[Jdate.setHours(hour);[25G... return date;[5G[Jreturn date;[17G... }[5G[J}[6Gmongos> [H[2Jmongos> [9G[J[9Gvar publicaciones = [[9G[Jvar publicaciones = [[30G... {[5G[J{[6G... "id": 1,[5G[J"id": 1,[13G... "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[5G[J"titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[77G... "tipoDePublicacion": "productos"[5G[J"tipoDePublicacion": "productos"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 2,[5G[J"id": 2,[13G... "titulo": "Campbell Hausfeld Pistol Grip Blowgun",[5G[J"titulo": "Campbell Hausfeld Pistol Grip Blowgun",[55G... "tipoDePublicacion": "servicios"[5G[J"tipoDePublicacion": "servicios"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 3,[5G[J"id": 3,[13G... "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Se[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set
+[1G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set [2G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set B[3G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bu[4G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bun[5G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bund[6G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundl[7G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle[8G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle"[9G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G... "tipoDePublicacion": "mixta"[5G[J"tipoDePublicacion": "mixta"[33G... }[5G[J}[6G... ][5G[J][6Gmongos> [H[2Jmongos> [9G[J[9Gvar insertData = function(){[9G[Jvar insertData = function(){[37G... for (var i = 0 ; i < 20000; i++){[5G[Jfor (var i = 0 ; i < 20000; i++){[38G... var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.leng[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.lengt
+[1G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length[2G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)[3G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)][4G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G... [5G[J[5G... publicacion.fecha = randomDate();[5G[Jpublicacion.fecha = randomDate();[38G... [5G[J[5G... db.publicaciones.insert(publicacion);[5G[Jdb.publicaciones.insert(publicacion);[42G... }[5G[J}[6G... }[5G[J}[6Gmongos> [H[2Jmongos> [9G[J[9Gsh.status(); db.publicaciones.getShardDistribution(); insertDatr[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertDat[72Ga();[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		No recent migrations
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(1, 0) 
+
+
+Shard shard10000 at localhost:10000
+ data : 0B docs : 0 chunks : 1
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Totals
+ data : 0B docs : 0 chunks : 1
+ Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 498KiB docs : 2125 chunks : 1
+ estimated data per chunk : 498KiB
+ estimated docs per chunk : 2125
+
+Shard shard10001 at localhost:10001
+ data : 2.13MiB docs : 9327 chunks : 1
+ estimated data per chunk : 2.13MiB
+ estimated docs per chunk : 9327
+
+Shard shard10002 at localhost:10002
+ data : 1.95MiB docs : 8548 chunks : 1
+ estimated data per chunk : 1.95MiB
+ estimated docs per chunk : 8548
+
+Totals
+ data : 4.57MiB docs : 20000 chunks : 3
+ Shard shard10000 contains 10.62% data, 10.62% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.63% data, 46.63% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.74% data, 42.74% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 983KiB docs : 4195 chunks : 1
+ estimated data per chunk : 983KiB
+ estimated docs per chunk : 4195
+
+Shard shard10001 at localhost:10001
+ data : 4.29MiB docs : 18763 chunks : 1
+ estimated data per chunk : 4.29MiB
+ estimated docs per chunk : 18763
+
+Shard shard10002 at localhost:10002
+ data : 3.9MiB docs : 17042 chunks : 1
+ estimated data per chunk : 3.9MiB
+ estimated docs per chunk : 17042
+
+Totals
+ data : 9.15MiB docs : 40000 chunks : 3
+ Shard shard10000 contains 10.48% data, 10.48% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.9% data, 46.9% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.6% data, 42.6% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 1.44MiB docs : 6298 chunks : 1
+ estimated data per chunk : 1.44MiB
+ estimated docs per chunk : 6298
+
+Shard shard10001 at localhost:10001
+ data : 6.42MiB docs : 28089 chunks : 1
+ estimated data per chunk : 6.42MiB
+ estimated docs per chunk : 28089
+
+Shard shard10002 at localhost:10002
+ data : 5.86MiB docs : 25613 chunks : 1
+ estimated data per chunk : 5.86MiB
+ estimated docs per chunk : 25613
+
+Totals
+ data : 13.73MiB docs : 60000 chunks : 3
+ Shard shard10000 contains 10.49% data, 10.49% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.81% data, 46.81% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.68% data, 42.68% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 1.93MiB docs : 8467 chunks : 1
+ estimated data per chunk : 1.93MiB
+ estimated docs per chunk : 8467
+
+Shard shard10001 at localhost:10001
+ data : 8.54MiB docs : 37343 chunks : 1
+ estimated data per chunk : 8.54MiB
+ estimated docs per chunk : 37343
+
+Shard shard10002 at localhost:10002
+ data : 7.82MiB docs : 34190 chunks : 1
+ estimated data per chunk : 7.82MiB
+ estimated docs per chunk : 34190
+
+Totals
+ data : 18.31MiB docs : 80000 chunks : 3
+ Shard shard10000 contains 10.58% data, 10.58% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.67% data, 46.67% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.73% data, 42.73% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 2.41MiB docs : 10547 chunks : 1
+ estimated data per chunk : 2.41MiB
+ estimated docs per chunk : 10547
+
+Shard shard10001 at localhost:10001
+ data : 10.7MiB docs : 46783 chunks : 1
+ estimated data per chunk : 10.7MiB
+ estimated docs per chunk : 46783
+
+Shard shard10002 at localhost:10002
+ data : 9.76MiB docs : 42670 chunks : 1
+ estimated data per chunk : 9.76MiB
+ estimated docs per chunk : 42670
+
+Totals
+ data : 22.88MiB docs : 100000 chunks : 3
+ Shard shard10000 contains 10.54% data, 10.54% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.78% data, 46.78% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.67% data, 42.67% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 2.88MiB docs : 12609 chunks : 1
+ estimated data per chunk : 2.88MiB
+ estimated docs per chunk : 12609
+
+Shard shard10001 at localhost:10001
+ data : 12.86MiB docs : 56188 chunks : 1
+ estimated data per chunk : 12.86MiB
+ estimated docs per chunk : 56188
+
+Shard shard10002 at localhost:10002
+ data : 11.71MiB docs : 51203 chunks : 1
+ estimated data per chunk : 11.71MiB
+ estimated docs per chunk : 51203
+
+Totals
+ data : 27.46MiB docs : 120000 chunks : 3
+ Shard shard10000 contains 10.5% data, 10.5% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.82% data, 46.82% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.66% data, 42.66% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 3.35MiB docs : 14671 chunks : 1
+ estimated data per chunk : 3.35MiB
+ estimated docs per chunk : 14671
+
+Shard shard10001 at localhost:10001
+ data : 15MiB docs : 65571 chunks : 1
+ estimated data per chunk : 15MiB
+ estimated docs per chunk : 65571
+
+Shard shard10002 at localhost:10002
+ data : 13.67MiB docs : 59758 chunks : 1
+ estimated data per chunk : 13.67MiB
+ estimated docs per chunk : 59758
+
+Totals
+ data : 32.04MiB docs : 140000 chunks : 3
+ Shard shard10000 contains 10.47% data, 10.47% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.83% data, 46.83% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.68% data, 42.68% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[J[9G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		2 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+				shard10001	1
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(2, 0) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 3.84MiB docs : 16789 chunks : 1
+ estimated data per chunk : 3.84MiB
+ estimated docs per chunk : 16789
+
+Shard shard10001 at localhost:10001
+ data : 17.15MiB docs : 74948 chunks : 1
+ estimated data per chunk : 17.15MiB
+ estimated docs per chunk : 74948
+
+Shard shard10002 at localhost:10002
+ data : 15.62MiB docs : 68263 chunks : 1
+ estimated data per chunk : 15.62MiB
+ estimated docs per chunk : 68263
+
+Totals
+ data : 36.62MiB docs : 160000 chunks : 3
+ Shard shard10000 contains 10.49% data, 10.49% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.84% data, 46.84% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.66% data, 42.66% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		3 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 1) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 4.31MiB docs : 18840 chunks : 2
+ estimated data per chunk : 2.15MiB
+ estimated docs per chunk : 9420
+
+Shard shard10001 at localhost:10001
+ data : 19.29MiB docs : 84312 chunks : 2
+ estimated data per chunk : 9.64MiB
+ estimated docs per chunk : 42156
+
+Shard shard10002 at localhost:10002
+ data : 17.58MiB docs : 76848 chunks : 1
+ estimated data per chunk : 17.58MiB
+ estimated docs per chunk : 76848
+
+Totals
+ data : 41.19MiB docs : 180000 chunks : 5
+ Shard shard10000 contains 10.46% data, 10.46% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.84% data, 46.84% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		3 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 1) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(3, 0) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 4.79MiB docs : 20941 chunks : 2
+ estimated data per chunk : 2.39MiB
+ estimated docs per chunk : 10470
+
+Shard shard10001 at localhost:10001
+ data : 21.43MiB docs : 93636 chunks : 2
+ estimated data per chunk : 10.71MiB
+ estimated docs per chunk : 46818
+
+Shard shard10002 at localhost:10002
+ data : 19.55MiB docs : 85423 chunks : 1
+ estimated data per chunk : 19.55MiB
+ estimated docs per chunk : 85423
+
+Totals
+ data : 45.77MiB docs : 200000 chunks : 5
+ Shard shard10000 contains 10.47% data, 10.47% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.81% data, 46.81% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.71% data, 42.71% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		3 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	2
+				shard10001	4
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10001 Timestamp(4, 2) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(4, 3) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 5.26MiB docs : 22990 chunks : 2
+ estimated data per chunk : 2.63MiB
+ estimated docs per chunk : 11495
+
+Shard shard10001 at localhost:10001
+ data : 23.56MiB docs : 102964 chunks : 4
+ estimated data per chunk : 5.89MiB
+ estimated docs per chunk : 25741
+
+Shard shard10002 at localhost:10002
+ data : 21.52MiB docs : 94046 chunks : 3
+ estimated data per chunk : 7.17MiB
+ estimated docs per chunk : 31348
+
+Totals
+ data : 50.35MiB docs : 220000 chunks : 9
+ Shard shard10000 contains 10.45% data, 10.45% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 46.8% data, 46.8% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.74% data, 42.74% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 14.73MiB docs : 64366 chunks : 3
+ estimated data per chunk : 4.91MiB
+ estimated docs per chunk : 21455
+
+Shard shard10001 at localhost:10001
+ data : 16.72MiB docs : 73080 chunks : 3
+ estimated data per chunk : 5.57MiB
+ estimated docs per chunk : 24360
+
+Shard shard10002 at localhost:10002
+ data : 23.47MiB docs : 102554 chunks : 3
+ estimated data per chunk : 7.82MiB
+ estimated docs per chunk : 34184
+
+Totals
+ data : 54.93MiB docs : 240000 chunks : 9
+ Shard shard10000 contains 26.81% data, 26.81% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.45% data, 30.45% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.73% data, 42.73% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 15.97MiB docs : 69783 chunks : 3
+ estimated data per chunk : 5.32MiB
+ estimated docs per chunk : 23261
+
+Shard shard10001 at localhost:10001
+ data : 18.12MiB docs : 79201 chunks : 3
+ estimated data per chunk : 6.04MiB
+ estimated docs per chunk : 26400
+
+Shard shard10002 at localhost:10002
+ data : 25.4MiB docs : 111016 chunks : 3
+ estimated data per chunk : 8.46MiB
+ estimated docs per chunk : 37005
+
+Totals
+ data : 59.5MiB docs : 260000 chunks : 9
+ Shard shard10000 contains 26.83% data, 26.83% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.46% data, 30.46% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 17.22MiB docs : 75256 chunks : 3
+ estimated data per chunk : 5.74MiB
+ estimated docs per chunk : 25085
+
+Shard shard10001 at localhost:10001
+ data : 19.5MiB docs : 85206 chunks : 3
+ estimated data per chunk : 6.5MiB
+ estimated docs per chunk : 28402
+
+Shard shard10002 at localhost:10002
+ data : 27.35MiB docs : 119538 chunks : 3
+ estimated data per chunk : 9.11MiB
+ estimated docs per chunk : 39846
+
+Totals
+ data : 64.08MiB docs : 280000 chunks : 9
+ Shard shard10000 contains 26.87% data, 26.87% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.43% data, 30.43% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 18.45MiB docs : 80654 chunks : 3
+ estimated data per chunk : 6.15MiB
+ estimated docs per chunk : 26884
+
+Shard shard10001 at localhost:10001
+ data : 20.87MiB docs : 91221 chunks : 3
+ estimated data per chunk : 6.95MiB
+ estimated docs per chunk : 30407
+
+Shard shard10002 at localhost:10002
+ data : 29.32MiB docs : 128125 chunks : 3
+ estimated data per chunk : 9.77MiB
+ estimated docs per chunk : 42708
+
+Totals
+ data : 68.66MiB docs : 300000 chunks : 9
+ Shard shard10000 contains 26.88% data, 26.88% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.4% data, 30.4% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.7% data, 42.7% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 19.68MiB docs : 86001 chunks : 3
+ estimated data per chunk : 6.56MiB
+ estimated docs per chunk : 28667
+
+Shard shard10001 at localhost:10001
+ data : 22.28MiB docs : 97368 chunks : 3
+ estimated data per chunk : 7.42MiB
+ estimated docs per chunk : 32456
+
+Shard shard10002 at localhost:10002
+ data : 31.27MiB docs : 136631 chunks : 3
+ estimated data per chunk : 10.42MiB
+ estimated docs per chunk : 45543
+
+Totals
+ data : 73.24MiB docs : 320000 chunks : 9
+ Shard shard10000 contains 26.87% data, 26.87% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.42% data, 30.42% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 20.92MiB docs : 91407 chunks : 3
+ estimated data per chunk : 6.97MiB
+ estimated docs per chunk : 30469
+
+Shard shard10001 at localhost:10001
+ data : 23.66MiB docs : 103413 chunks : 3
+ estimated data per chunk : 7.88MiB
+ estimated docs per chunk : 34471
+
+Shard shard10002 at localhost:10002
+ data : 33.22MiB docs : 145180 chunks : 3
+ estimated data per chunk : 11.07MiB
+ estimated docs per chunk : 48393
+
+Totals
+ data : 77.81MiB docs : 340000 chunks : 9
+ Shard shard10000 contains 26.88% data, 26.88% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.41% data, 30.41% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.7% data, 42.7% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 22.15MiB docs : 96787 chunks : 3
+ estimated data per chunk : 7.38MiB
+ estimated docs per chunk : 32262
+
+Shard shard10001 at localhost:10001
+ data : 25.05MiB docs : 109452 chunks : 3
+ estimated data per chunk : 8.34MiB
+ estimated docs per chunk : 36484
+
+Shard shard10002 at localhost:10002
+ data : 35.19MiB docs : 153761 chunks : 3
+ estimated data per chunk : 11.73MiB
+ estimated docs per chunk : 51253
+
+Totals
+ data : 82.39MiB docs : 360000 chunks : 9
+ Shard shard10000 contains 26.88% data, 26.88% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.4% data, 30.4% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.71% data, 42.71% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 23.38MiB docs : 102155 chunks : 3
+ estimated data per chunk : 7.79MiB
+ estimated docs per chunk : 34051
+
+Shard shard10001 at localhost:10001
+ data : 26.42MiB docs : 115454 chunks : 3
+ estimated data per chunk : 8.8MiB
+ estimated docs per chunk : 38484
+
+Shard shard10002 at localhost:10002
+ data : 37.16MiB docs : 162391 chunks : 3
+ estimated data per chunk : 12.38MiB
+ estimated docs per chunk : 54130
+
+Totals
+ data : 86.97MiB docs : 380000 chunks : 9
+ Shard shard10000 contains 26.88% data, 26.88% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.38% data, 30.38% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.73% data, 42.73% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 24.59MiB docs : 107441 chunks : 3
+ estimated data per chunk : 8.19MiB
+ estimated docs per chunk : 35813
+
+Shard shard10001 at localhost:10001
+ data : 27.81MiB docs : 121524 chunks : 3
+ estimated data per chunk : 9.27MiB
+ estimated docs per chunk : 40508
+
+Shard shard10002 at localhost:10002
+ data : 39.14MiB docs : 171035 chunks : 3
+ estimated data per chunk : 13.04MiB
+ estimated docs per chunk : 57011
+
+Totals
+ data : 91.55MiB docs : 400000 chunks : 9
+ Shard shard10000 contains 26.86% data, 26.86% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.38% data, 30.38% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.75% data, 42.75% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 25.8MiB docs : 112758 chunks : 3
+ estimated data per chunk : 8.6MiB
+ estimated docs per chunk : 37586
+
+Shard shard10001 at localhost:10001
+ data : 29.22MiB docs : 127670 chunks : 3
+ estimated data per chunk : 9.74MiB
+ estimated docs per chunk : 42556
+
+Shard shard10002 at localhost:10002
+ data : 41.1MiB docs : 179572 chunks : 3
+ estimated data per chunk : 13.7MiB
+ estimated docs per chunk : 59857
+
+Totals
+ data : 96.12MiB docs : 420000 chunks : 9
+ Shard shard10000 contains 26.84% data, 26.84% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.39% data, 30.39% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.75% data, 42.75% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		4 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	3
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10002 Timestamp(4, 5) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(4, 6) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 27.03MiB docs : 118117 chunks : 3
+ estimated data per chunk : 9.01MiB
+ estimated docs per chunk : 39372
+
+Shard shard10001 at localhost:10001
+ data : 30.61MiB docs : 133780 chunks : 3
+ estimated data per chunk : 10.2MiB
+ estimated docs per chunk : 44593
+
+Shard shard10002 at localhost:10002
+ data : 43.05MiB docs : 188103 chunks : 3
+ estimated data per chunk : 14.35MiB
+ estimated docs per chunk : 62701
+
+Totals
+ data : 100.7MiB docs : 440000 chunks : 9
+ Shard shard10000 contains 26.84% data, 26.84% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.4% data, 30.4% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 42.75% data, 42.75% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		5 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	4
+				shard10001	3
+				shard10002	4
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10000 Timestamp(6, 0) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2013-08-18T09:03:34.906Z") } on : shard10002 Timestamp(6, 1) 
+			{ "fecha" : ISODate("2013-08-18T09:03:34.906Z") } -->> { "fecha" : ISODate("2014-01-10T06:00:53.880Z") } on : shard10002 Timestamp(5, 3) 
+			{ "fecha" : ISODate("2014-01-10T06:00:53.880Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(5, 4) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 45.36MiB docs : 198222 chunks : 4
+ estimated data per chunk : 11.34MiB
+ estimated docs per chunk : 49555
+
+Shard shard10001 at localhost:10001
+ data : 31.98MiB docs : 139747 chunks : 3
+ estimated data per chunk : 10.66MiB
+ estimated docs per chunk : 46582
+
+Shard shard10002 at localhost:10002
+ data : 27.93MiB docs : 122031 chunks : 4
+ estimated data per chunk : 6.98MiB
+ estimated docs per chunk : 30507
+
+Totals
+ data : 105.28MiB docs : 460000 chunks : 11
+ Shard shard10000 contains 43.09% data, 43.09% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.37% data, 30.37% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 26.52% data, 26.52% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		5 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	4
+				shard10001	3
+				shard10002	4
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10000 Timestamp(6, 0) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2013-08-18T09:03:34.906Z") } on : shard10002 Timestamp(6, 1) 
+			{ "fecha" : ISODate("2013-08-18T09:03:34.906Z") } -->> { "fecha" : ISODate("2014-01-10T06:00:53.880Z") } on : shard10002 Timestamp(5, 3) 
+			{ "fecha" : ISODate("2014-01-10T06:00:53.880Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(5, 4) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 47.32MiB docs : 206767 chunks : 4
+ estimated data per chunk : 11.83MiB
+ estimated docs per chunk : 51691
+
+Shard shard10001 at localhost:10001
+ data : 33.36MiB docs : 145790 chunks : 3
+ estimated data per chunk : 11.12MiB
+ estimated docs per chunk : 48596
+
+Shard shard10002 at localhost:10002
+ data : 29.16MiB docs : 127443 chunks : 4
+ estimated data per chunk : 7.29MiB
+ estimated docs per chunk : 31860
+
+Totals
+ data : 109.86MiB docs : 480000 chunks : 11
+ Shard shard10000 contains 43.07% data, 43.07% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.37% data, 30.37% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 26.55% data, 26.55% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		5 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	4
+				shard10001	3
+				shard10002	4
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : ISODate("2010-02-01T03:02:13.886Z") } on : shard10000 Timestamp(4, 0) 
+			{ "fecha" : ISODate("2010-02-01T03:02:13.886Z") } -->> { "fecha" : ISODate("2010-11-27T05:36:33.640Z") } on : shard10000 Timestamp(5, 0) 
+			{ "fecha" : ISODate("2010-11-27T05:36:33.640Z") } -->> { "fecha" : ISODate("2011-09-20T07:48:35.095Z") } on : shard10001 Timestamp(5, 1) 
+			{ "fecha" : ISODate("2011-09-20T07:48:35.095Z") } -->> { "fecha" : ISODate("2012-01-17T12:00:31.431Z") } on : shard10001 Timestamp(4, 4) 
+			{ "fecha" : ISODate("2012-01-17T12:00:31.431Z") } -->> { "fecha" : ISODate("2012-06-04T03:22:10.627Z") } on : shard10001 Timestamp(3, 4) 
+			{ "fecha" : ISODate("2012-06-04T03:22:10.627Z") } -->> { "fecha" : ISODate("2013-03-26T12:52:32.069Z") } on : shard10000 Timestamp(6, 0) 
+			{ "fecha" : ISODate("2013-03-26T12:52:32.069Z") } -->> { "fecha" : ISODate("2013-08-18T09:03:34.906Z") } on : shard10002 Timestamp(6, 1) 
+			{ "fecha" : ISODate("2013-08-18T09:03:34.906Z") } -->> { "fecha" : ISODate("2014-01-10T06:00:53.880Z") } on : shard10002 Timestamp(5, 3) 
+			{ "fecha" : ISODate("2014-01-10T06:00:53.880Z") } -->> { "fecha" : ISODate("2014-01-18T07:53:01.942Z") } on : shard10002 Timestamp(5, 4) 
+			{ "fecha" : ISODate("2014-01-18T07:53:01.942Z") } -->> { "fecha" : ISODate("2014-07-24T05:53:34.780Z") } on : shard10002 Timestamp(4, 7) 
+			{ "fecha" : ISODate("2014-07-24T05:53:34.780Z") } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
+
+
+Shard shard10000 at localhost:10000
+ data : 49.28MiB docs : 215318 chunks : 4
+ estimated data per chunk : 12.32MiB
+ estimated docs per chunk : 53829
+
+Shard shard10001 at localhost:10001
+ data : 34.77MiB docs : 151923 chunks : 3
+ estimated data per chunk : 11.58MiB
+ estimated docs per chunk : 50641
+
+Shard shard10002 at localhost:10002
+ data : 30.38MiB docs : 132759 chunks : 4
+ estimated data per chunk : 7.59MiB
+ estimated docs per chunk : 33189
+
+Totals
+ data : 114.44MiB docs : 500000 chunks : 11
+ Shard shard10000 contains 43.06% data, 43.06% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 30.38% data, 30.38% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 26.55% data, 26.55% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> db.[9G[Jdb[11G[9G[Jd[10G[9G[J[9G[9G[J[9G^C
+bye

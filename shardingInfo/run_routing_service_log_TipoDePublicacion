@@ -793,3 +793,21 @@
 2016-06-25T19:45:34.177-0300 I SHARDING [LockPinger] cluster localhost:10003 pinged successfully at Sat Jun 25 19:45:34 2016 by distributed lock pinger 'localhost:10003/alagaesia:10004:1466891583:1804289383', sleeping for 30000ms
 2016-06-25T19:45:40.041-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f09942824ae578197f41f
 2016-06-25T19:45:40.065-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:45:50.067-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f099e2824ae578197f421
+2016-06-25T19:45:50.119-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:46:00.121-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f09a82824ae578197f423
+2016-06-25T19:46:00.171-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:46:04.178-0300 I SHARDING [LockPinger] cluster localhost:10003 pinged successfully at Sat Jun 25 19:46:04 2016 by distributed lock pinger 'localhost:10003/alagaesia:10004:1466891583:1804289383', sleeping for 30000ms
+2016-06-25T19:46:10.172-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f09b22824ae578197f425
+2016-06-25T19:46:10.202-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:46:20.204-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f09bc2824ae578197f427
+2016-06-25T19:46:20.256-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:46:30.258-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f09c62824ae578197f429
+2016-06-25T19:46:30.332-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:46:34.179-0300 I SHARDING [LockPinger] cluster localhost:10003 pinged successfully at Sat Jun 25 19:46:34 2016 by distributed lock pinger 'localhost:10003/alagaesia:10004:1466891583:1804289383', sleeping for 30000ms
+2016-06-25T19:46:40.334-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f09d02824ae578197f42b
+2016-06-25T19:46:40.379-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:46:50.381-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' acquired, ts : 576f09da2824ae578197f42d
+2016-06-25T19:46:50.416-0300 I SHARDING [Balancer] distributed lock 'balancer/alagaesia:10004:1466891583:1804289383' unlocked. 
+2016-06-25T19:46:51.595-0300 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2016-06-25T19:46:51.595-0300 I SHARDING [signalProcessingThread] dbexit:  rc:0
