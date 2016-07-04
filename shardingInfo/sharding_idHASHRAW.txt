@@ -1,0 +1,2034 @@
+MongoDB shell version: 3.0.12
+connecting to: localhost:10004/test
+mongos> [9G[Jdb.publicaciones.drop();[33G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jvar randomDate = function randomDate() { var startDate = new Date(2010, 1, 1, 0, 0, 0, 0); var endDate = new Date(2014, 12, 31, 0, 0, 0, 0);  var date = new Date(+startDate + Math.random() * (endDate - startDate)); var hour = 0 + Math.random() * (11 - 0) | 0; date.setHours(hour); return date; }[64G[3A[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jdb.publicaciones.drop();[33G[9G[J[9G[9G[Jdb.publicaciones.drop();[33G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[H[2Jmongos> [9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[H[2Jmongos> [9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[H[2Jmongos> [9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jdb.publicaciones.drop();[33G[9G[J[9Gsh.status()[9G[Jsh.status()[20G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		7 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+
+mongos> db.publicaciones.getShardDistribution()[9G[Jdb.publicaciones.getShardDistribution()[48G
+Collection test.publicaciones is not sharded.
+mongos> use tp_sharding[9G[Juse tp_sharding[24G
+switched to db tp_sharding
+mongos> sh.enableSharding("tp_sharding")[9G[Jsh.enableSharding("tp_sharding")[41G
+{ "ok" : 0, "errmsg" : "already enabled" }
+mongos> db.collection.createIndex({caca})[9G[Jdb.collection.createIndex[1;34m([0m{caca})[41G[9G[Jdb.collection.createIndex([1;34m{[0mcaca)[40G[9G[Jdb.collection.createIndex([1;34m{[0mcac)[39G[9G[Jdb.collection.createIndex([1;34m{[0mca)[38G[9G[Jdb.collection.createIndex([1;34m{[0mc)[37G[9G[Jdb.collection.createIndex([1;34m{[0m)[36G[9G[Jdb.collection.createIndex[1;34m([0m)[35G[9G[Jdb.collection.createIndex([1;34m{[0m)[36G[9G[Jdb.collection.createIndex([1;34m{[0m")[37G[9G[Jdb.collection.createIndex([1;34m{[0m"_)[38G[9G[Jdb.collection.createIndex([1;34m{[0m"_i)[39G[9G[Jdb.collection.createIndex([1;34m{[0m"_id)[40G[9G[Jdb.collection.createIndex([1;34m{[0m"_id")[41G[9G[Jdb.collection.createIndex([1;34m{[0m"_id":)[42G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": )[43G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": ")[44G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": "h)[45G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": "ha)[46G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": "has)[47G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": "hash)[48G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": "hashe)[49G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": "hashed)[50G[9G[Jdb.collection.createIndex([1;34m{[0m"_id": "hashed")[51G[9G[Jdb.collection.createIndex[1;34m([0m{"_id": "hashed"})[52G[9G[Jdb.collection.createIndex({"_id": "hashed"})[53G
+{
+	"raw" : {
+		"localhost:10000" : {
+			"createdCollectionAutomatically" : false,
+			"numIndexesBefore" : 3,
+			"numIndexesAfter" : 3,
+			"note" : "all indexes already exist",
+			"ok" : 1
+		}
+	},
+	"ok" : 1
+}
+mongos> sh.shardCollection("tp_sharding.publicaciones", {"zip": 1} )[9G[Jsh.shardCollection[1;34m([0m"tp_sharding.publicaciones", {"zip": 1} )[68G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"zip": 1} )[67G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"zip": 1 )[66G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"zip":  )[65G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"zip": )[64G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"zip" )[63G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"zip )[62G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"zi )[61G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"z )[60G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {" )[59G[9G[Jsh.shardCollection("tp_sharding.publicaciones", { )[58G[9G[Jsh.shardCollection("tp_sharding.publicaciones",  )[57G[9G[Jsh.shardCollection("tp_sharding.publicaciones", { )[58G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {" )[59G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_ )[60G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_i )[61G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id )[62G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id" )[63G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": )[64G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id":  )[65G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": " )[66G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "h )[67G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "ha )[68G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "has )[69G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "hash )[70G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "hashe )[71G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "hashed )[72G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "hashed" )[73G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "hashed"} )[74G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"_id": "hashed"} )[76G
+{ "collectionsharded" : "tp_sharding.publicaciones", "ok" : 1 }
+mongos> var randomDate = function randomDate() {[9G[Jvar randomDate = function randomDate() {[49G... var startDate = new Date(2010, 1, 1, 0, 0, 0, 0);[5G[Jvar startDate = new Date(2010, 1, 1, 0, 0, 0, 0);[54G... var endDate = new Date(2014, 12, 31, 0, 0, 0, 0);[5G[Jvar endDate = new Date(2014, 12, 31, 0, 0, 0, 0);[54G... [5G[J[5G... var date = new Date(+startDate + Math.random() * (endDate - startDate));[5G[Jvar date = new Date(+startDate + Math.random() * (endDate - startDate));[77G... var hour = 0 + Math.random() * (11 - 0) | 0;[5G[Jvar hour = 0 + Math.random() * (11 - 0) | 0;[49G... date.setHours(hour);[5G[Jdate.setHours(hour);[25G... return date;[5G[Jreturn date;[17G... }[5G[J}[6Gmongos> var publicaciones = [[9G[Jvar publicaciones = [[30G... {[5G[J{[6G... "id": 1,[5G[J"id": 1,[13G... "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[5G[J"titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[77G... "tipoDePublicacion": "productos"[5G[J"tipoDePublicacion": "productos"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 2,[5G[J"id": 2,[13G... "titulo": "Campbell Hausfeld Pistol Grip Blowgun",[5G[J"titulo": "Campbell Hausfeld Pistol Grip Blowgun",[55G... "tipoDePublicacion": "servicios"[5G[J"tipoDePublicacion": "servicios"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 3,[5G[J"id": 3,[13G... "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Se[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set
+[1G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set [2G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set B[3G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bu[4G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bun[5G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bund[6G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundl[7G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle[8G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle"[9G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G... "tipoDePublicacion": "mixta"[5G[J"tipoDePublicacion": "mixta"[33G... }[5G[J}[6G... ][5G[J][6Gmongos> var insertData = function(){[9G[Jvar insertData = function(){[37G... for (var i = 0 ; i < 20000; i++){[5G[Jfor (var i = 0 ; i < 20000; i++){[38G... var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.leng[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.lengt
+[1G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length[2G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)[3G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)][4G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G... [5G[J[5G... publicacion.fecha = randomDate();[5G[Jpublicacion.fecha = randomDate();[38G... [5G[J[5G... db.publicaciones.insert(publicacion);[5G[Jdb.publicaciones.insert(publicacion);[42G... }[5G[J}[6G... }[5G[J}[6Gmongos> [H[2Jmongos> [9G[J[9G[9G[Jvar insertData = function(){ for (var i = 0 ; i < 20000; i++){ var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  publicacion.fecha = randomDate();  db.publicaciones.insert(publicacion); } }[70G[2A[9G[J[9G[9G[Jvar insertData = function(){ for (var i = 0 ; i < 20000; i++){ var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  publicacion.fecha = randomDate();  db.publicaciones.insert(publicacion); } }[70G[2A[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jvar randomDate = function randomDate() { var startDate = new Date(2010, 1, 1, 0, 0, 0, 0); var endDate = new Date(2014, 12, 31, 0, 0, 0, 0);  var date = new Date(+startDate + Math.random() * (endDate - startDate)); var hour = 0 + Math.random() * (11 - 0) | 0; date.setHours(hour); return date; }[64G[3A[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jvar insertData = function(){ for (var i = 0 ; i < 20000; i++){ var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  publicacion.fecha = randomDate();  db.publicaciones.insert(publicacion); } }[70G[2A[9G[J[9Gsh.status(); db.publicaciones.getShardDistribution(); insertData();[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 0B docs : 0 chunks : 2
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Shard shard10001 at localhost:10001
+ data : 0B docs : 0 chunks : 2
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Shard shard10002 at localhost:10002
+ data : 0B docs : 0 chunks : 2
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Totals
+ data : 0B docs : 0 chunks : 6
+ Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
+ Shard shard10001 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
+ Shard shard10002 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 1.49MiB docs : 6522 chunks : 2
+ estimated data per chunk : 764KiB
+ estimated docs per chunk : 3261
+
+Shard shard10001 at localhost:10001
+ data : 1.54MiB docs : 6758 chunks : 2
+ estimated data per chunk : 791KiB
+ estimated docs per chunk : 3379
+
+Shard shard10002 at localhost:10002
+ data : 1.53MiB docs : 6720 chunks : 2
+ estimated data per chunk : 787KiB
+ estimated docs per chunk : 3360
+
+Totals
+ data : 4.57MiB docs : 20000 chunks : 6
+ Shard shard10000 contains 32.61% data, 32.61% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.79% data, 33.79% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.6% data, 33.6% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 3.01MiB docs : 13177 chunks : 2
+ estimated data per chunk : 1.5MiB
+ estimated docs per chunk : 6588
+
+Shard shard10001 at localhost:10001
+ data : 3.07MiB docs : 13444 chunks : 2
+ estimated data per chunk : 1.53MiB
+ estimated docs per chunk : 6722
+
+Shard shard10002 at localhost:10002
+ data : 3.06MiB docs : 13379 chunks : 2
+ estimated data per chunk : 1.53MiB
+ estimated docs per chunk : 6689
+
+Totals
+ data : 9.15MiB docs : 40000 chunks : 6
+ Shard shard10000 contains 32.94% data, 32.94% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.61% data, 33.61% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.44% data, 33.44% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 4.54MiB docs : 19854 chunks : 2
+ estimated data per chunk : 2.27MiB
+ estimated docs per chunk : 9927
+
+Shard shard10001 at localhost:10001
+ data : 4.63MiB docs : 20233 chunks : 2
+ estimated data per chunk : 2.31MiB
+ estimated docs per chunk : 10116
+
+Shard shard10002 at localhost:10002
+ data : 4.55MiB docs : 19913 chunks : 2
+ estimated data per chunk : 2.27MiB
+ estimated docs per chunk : 9956
+
+Totals
+ data : 13.73MiB docs : 60000 chunks : 6
+ Shard shard10000 contains 33.09% data, 33.09% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.72% data, 33.72% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.18% data, 33.18% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 6.07MiB docs : 26544 chunks : 2
+ estimated data per chunk : 3.03MiB
+ estimated docs per chunk : 13272
+
+Shard shard10001 at localhost:10001
+ data : 6.15MiB docs : 26885 chunks : 2
+ estimated data per chunk : 3.07MiB
+ estimated docs per chunk : 13442
+
+Shard shard10002 at localhost:10002
+ data : 6.08MiB docs : 26571 chunks : 2
+ estimated data per chunk : 3.04MiB
+ estimated docs per chunk : 13285
+
+Totals
+ data : 18.31MiB docs : 80000 chunks : 6
+ Shard shard10000 contains 33.18% data, 33.18% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.6% data, 33.6% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.21% data, 33.21% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 7.6MiB docs : 33211 chunks : 2
+ estimated data per chunk : 3.79MiB
+ estimated docs per chunk : 16605
+
+Shard shard10001 at localhost:10001
+ data : 7.67MiB docs : 33532 chunks : 2
+ estimated data per chunk : 3.83MiB
+ estimated docs per chunk : 16766
+
+Shard shard10002 at localhost:10002
+ data : 7.61MiB docs : 33257 chunks : 2
+ estimated data per chunk : 3.8MiB
+ estimated docs per chunk : 16628
+
+Totals
+ data : 22.88MiB docs : 100000 chunks : 6
+ Shard shard10000 contains 33.21% data, 33.21% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.53% data, 33.53% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.25% data, 33.25% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 9.13MiB docs : 39926 chunks : 2
+ estimated data per chunk : 4.56MiB
+ estimated docs per chunk : 19963
+
+Shard shard10001 at localhost:10001
+ data : 9.17MiB docs : 40105 chunks : 2
+ estimated data per chunk : 4.58MiB
+ estimated docs per chunk : 20052
+
+Shard shard10002 at localhost:10002
+ data : 9.14MiB docs : 39969 chunks : 2
+ estimated data per chunk : 4.57MiB
+ estimated docs per chunk : 19984
+
+Totals
+ data : 27.46MiB docs : 120000 chunks : 6
+ Shard shard10000 contains 33.27% data, 33.27% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.42% data, 33.42% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.3% data, 33.3% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 10.64MiB docs : 46525 chunks : 2
+ estimated data per chunk : 5.32MiB
+ estimated docs per chunk : 23262
+
+Shard shard10001 at localhost:10001
+ data : 10.69MiB docs : 46719 chunks : 2
+ estimated data per chunk : 5.34MiB
+ estimated docs per chunk : 23359
+
+Shard shard10002 at localhost:10002
+ data : 10.7MiB docs : 46756 chunks : 2
+ estimated data per chunk : 5.35MiB
+ estimated docs per chunk : 23378
+
+Totals
+ data : 32.04MiB docs : 140000 chunks : 6
+ Shard shard10000 contains 33.23% data, 33.23% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.37% data, 33.37% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.39% data, 33.39% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 12.18MiB docs : 53226 chunks : 2
+ estimated data per chunk : 6.09MiB
+ estimated docs per chunk : 26613
+
+Shard shard10001 at localhost:10001
+ data : 12.22MiB docs : 53397 chunks : 2
+ estimated data per chunk : 6.11MiB
+ estimated docs per chunk : 26698
+
+Shard shard10002 at localhost:10002
+ data : 12.21MiB docs : 53377 chunks : 2
+ estimated data per chunk : 6.1MiB
+ estimated docs per chunk : 26688
+
+Totals
+ data : 36.62MiB docs : 160000 chunks : 6
+ Shard shard10000 contains 33.26% data, 33.26% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.37% data, 33.37% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.36% data, 33.36% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 13.73MiB docs : 60007 chunks : 2
+ estimated data per chunk : 6.86MiB
+ estimated docs per chunk : 30003
+
+Shard shard10001 at localhost:10001
+ data : 13.71MiB docs : 59932 chunks : 2
+ estimated data per chunk : 6.85MiB
+ estimated docs per chunk : 29966
+
+Shard shard10002 at localhost:10002
+ data : 13.74MiB docs : 60061 chunks : 2
+ estimated data per chunk : 6.87MiB
+ estimated docs per chunk : 30030
+
+Totals
+ data : 41.19MiB docs : 180000 chunks : 6
+ Shard shard10000 contains 33.33% data, 33.33% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.29% data, 33.29% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.36% data, 33.36% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 15.24MiB docs : 66617 chunks : 2
+ estimated data per chunk : 7.62MiB
+ estimated docs per chunk : 33308
+
+Shard shard10001 at localhost:10001
+ data : 15.23MiB docs : 66562 chunks : 2
+ estimated data per chunk : 7.61MiB
+ estimated docs per chunk : 33281
+
+Shard shard10002 at localhost:10002
+ data : 15.29MiB docs : 66821 chunks : 2
+ estimated data per chunk : 7.64MiB
+ estimated docs per chunk : 33410
+
+Totals
+ data : 45.77MiB docs : 200000 chunks : 6
+ Shard shard10000 contains 33.3% data, 33.3% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.28% data, 33.28% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.41% data, 33.41% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 16.79MiB docs : 73360 chunks : 2
+ estimated data per chunk : 8.39MiB
+ estimated docs per chunk : 36680
+
+Shard shard10001 at localhost:10001
+ data : 16.73MiB docs : 73133 chunks : 2
+ estimated data per chunk : 8.36MiB
+ estimated docs per chunk : 36566
+
+Shard shard10002 at localhost:10002
+ data : 16.82MiB docs : 73507 chunks : 2
+ estimated data per chunk : 8.41MiB
+ estimated docs per chunk : 36753
+
+Totals
+ data : 50.35MiB docs : 220000 chunks : 6
+ Shard shard10000 contains 33.34% data, 33.34% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.24% data, 33.24% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.41% data, 33.41% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 18.34MiB docs : 80159 chunks : 2
+ estimated data per chunk : 9.17MiB
+ estimated docs per chunk : 40079
+
+Shard shard10001 at localhost:10001
+ data : 18.25MiB docs : 79771 chunks : 2
+ estimated data per chunk : 9.12MiB
+ estimated docs per chunk : 39885
+
+Shard shard10002 at localhost:10002
+ data : 18.32MiB docs : 80070 chunks : 2
+ estimated data per chunk : 9.16MiB
+ estimated docs per chunk : 40035
+
+Totals
+ data : 54.93MiB docs : 240000 chunks : 6
+ Shard shard10000 contains 33.39% data, 33.39% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.23% data, 33.23% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.36% data, 33.36% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 19.87MiB docs : 86860 chunks : 2
+ estimated data per chunk : 9.93MiB
+ estimated docs per chunk : 43430
+
+Shard shard10001 at localhost:10001
+ data : 19.77MiB docs : 86401 chunks : 2
+ estimated data per chunk : 9.88MiB
+ estimated docs per chunk : 43200
+
+Shard shard10002 at localhost:10002
+ data : 19.85MiB docs : 86739 chunks : 2
+ estimated data per chunk : 9.92MiB
+ estimated docs per chunk : 43369
+
+Totals
+ data : 59.5MiB docs : 260000 chunks : 6
+ Shard shard10000 contains 33.4% data, 33.4% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.23% data, 33.23% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.36% data, 33.36% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 21.4MiB docs : 93537 chunks : 2
+ estimated data per chunk : 10.7MiB
+ estimated docs per chunk : 46768
+
+Shard shard10001 at localhost:10001
+ data : 21.3MiB docs : 93080 chunks : 2
+ estimated data per chunk : 10.65MiB
+ estimated docs per chunk : 46540
+
+Shard shard10002 at localhost:10002
+ data : 21.37MiB docs : 93383 chunks : 2
+ estimated data per chunk : 10.68MiB
+ estimated docs per chunk : 46691
+
+Totals
+ data : 64.08MiB docs : 280000 chunks : 6
+ Shard shard10000 contains 33.4% data, 33.4% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.24% data, 33.24% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.35% data, 33.35% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 22.94MiB docs : 100269 chunks : 2
+ estimated data per chunk : 11.47MiB
+ estimated docs per chunk : 50134
+
+Shard shard10001 at localhost:10001
+ data : 22.82MiB docs : 99742 chunks : 2
+ estimated data per chunk : 11.41MiB
+ estimated docs per chunk : 49871
+
+Shard shard10002 at localhost:10002
+ data : 22.88MiB docs : 99989 chunks : 2
+ estimated data per chunk : 11.44MiB
+ estimated docs per chunk : 49994
+
+Totals
+ data : 68.66MiB docs : 300000 chunks : 6
+ Shard shard10000 contains 33.42% data, 33.42% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.24% data, 33.24% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.32% data, 33.32% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 24.47MiB docs : 106946 chunks : 2
+ estimated data per chunk : 12.23MiB
+ estimated docs per chunk : 53473
+
+Shard shard10001 at localhost:10001
+ data : 24.35MiB docs : 106418 chunks : 2
+ estimated data per chunk : 12.17MiB
+ estimated docs per chunk : 53209
+
+Shard shard10002 at localhost:10002
+ data : 24.4MiB docs : 106636 chunks : 2
+ estimated data per chunk : 12.2MiB
+ estimated docs per chunk : 53318
+
+Totals
+ data : 73.24MiB docs : 320000 chunks : 6
+ Shard shard10000 contains 33.42% data, 33.42% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.25% data, 33.25% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.32% data, 33.32% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 26MiB docs : 113631 chunks : 2
+ estimated data per chunk : 13MiB
+ estimated docs per chunk : 56815
+
+Shard shard10001 at localhost:10001
+ data : 25.89MiB docs : 113121 chunks : 2
+ estimated data per chunk : 12.94MiB
+ estimated docs per chunk : 56560
+
+Shard shard10002 at localhost:10002
+ data : 25.91MiB docs : 113248 chunks : 2
+ estimated data per chunk : 12.95MiB
+ estimated docs per chunk : 56624
+
+Totals
+ data : 77.81MiB docs : 340000 chunks : 6
+ Shard shard10000 contains 33.42% data, 33.42% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.27% data, 33.27% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.3% data, 33.3% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 27.54MiB docs : 120329 chunks : 2
+ estimated data per chunk : 13.77MiB
+ estimated docs per chunk : 60164
+
+Shard shard10001 at localhost:10001
+ data : 27.42MiB docs : 119844 chunks : 2
+ estimated data per chunk : 13.71MiB
+ estimated docs per chunk : 59922
+
+Shard shard10002 at localhost:10002
+ data : 27.42MiB docs : 119827 chunks : 2
+ estimated data per chunk : 13.71MiB
+ estimated docs per chunk : 59913
+
+Totals
+ data : 82.39MiB docs : 360000 chunks : 6
+ Shard shard10000 contains 33.42% data, 33.42% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.28% data, 33.28% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.28% data, 33.28% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 29.07MiB docs : 127045 chunks : 2
+ estimated data per chunk : 14.53MiB
+ estimated docs per chunk : 63522
+
+Shard shard10001 at localhost:10001
+ data : 28.96MiB docs : 126555 chunks : 2
+ estimated data per chunk : 14.48MiB
+ estimated docs per chunk : 63277
+
+Shard shard10002 at localhost:10002
+ data : 28.93MiB docs : 126400 chunks : 2
+ estimated data per chunk : 14.46MiB
+ estimated docs per chunk : 63200
+
+Totals
+ data : 86.97MiB docs : 380000 chunks : 6
+ Shard shard10000 contains 33.43% data, 33.43% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.3% data, 33.3% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.26% data, 33.26% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 30.6MiB docs : 133715 chunks : 2
+ estimated data per chunk : 15.3MiB
+ estimated docs per chunk : 66857
+
+Shard shard10001 at localhost:10001
+ data : 30.5MiB docs : 133302 chunks : 2
+ estimated data per chunk : 15.25MiB
+ estimated docs per chunk : 66651
+
+Shard shard10002 at localhost:10002
+ data : 30.43MiB docs : 132983 chunks : 2
+ estimated data per chunk : 15.21MiB
+ estimated docs per chunk : 66491
+
+Totals
+ data : 91.55MiB docs : 400000 chunks : 6
+ Shard shard10000 contains 33.42% data, 33.42% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.32% data, 33.32% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.24% data, 33.24% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 32.13MiB docs : 140412 chunks : 2
+ estimated data per chunk : 16.06MiB
+ estimated docs per chunk : 70206
+
+Shard shard10001 at localhost:10001
+ data : 32.05MiB docs : 140064 chunks : 2
+ estimated data per chunk : 16.02MiB
+ estimated docs per chunk : 70032
+
+Shard shard10002 at localhost:10002
+ data : 31.93MiB docs : 139524 chunks : 2
+ estimated data per chunk : 15.96MiB
+ estimated docs per chunk : 69762
+
+Totals
+ data : 96.12MiB docs : 420000 chunks : 6
+ Shard shard10000 contains 33.43% data, 33.43% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.34% data, 33.34% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 33.66MiB docs : 147106 chunks : 2
+ estimated data per chunk : 16.83MiB
+ estimated docs per chunk : 73553
+
+Shard shard10001 at localhost:10001
+ data : 33.57MiB docs : 146700 chunks : 2
+ estimated data per chunk : 16.78MiB
+ estimated docs per chunk : 73350
+
+Shard shard10002 at localhost:10002
+ data : 33.46MiB docs : 146194 chunks : 2
+ estimated data per chunk : 16.73MiB
+ estimated docs per chunk : 73097
+
+Totals
+ data : 100.7MiB docs : 440000 chunks : 6
+ Shard shard10000 contains 33.43% data, 33.43% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.34% data, 33.34% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		9 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	2
+				shard10001	2
+				shard10002	2
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10001 Timestamp(3, 4) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 5) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 7) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 35.2MiB docs : 153815 chunks : 2
+ estimated data per chunk : 17.6MiB
+ estimated docs per chunk : 76907
+
+Shard shard10001 at localhost:10001
+ data : 35.09MiB docs : 153349 chunks : 2
+ estimated data per chunk : 17.54MiB
+ estimated docs per chunk : 76674
+
+Shard shard10002 at localhost:10002
+ data : 34.98MiB docs : 152836 chunks : 2
+ estimated data per chunk : 17.49MiB
+ estimated docs per chunk : 76418
+
+Totals
+ data : 105.28MiB docs : 460000 chunks : 6
+ Shard shard10000 contains 33.43% data, 33.43% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 33.33% data, 33.33% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 55MiB docs : 240334 chunks : 3
+ estimated data per chunk : 18.33MiB
+ estimated docs per chunk : 80111
+
+Shard shard10001 at localhost:10001
+ data : 18.33MiB docs : 80098 chunks : 3
+ estimated data per chunk : 6.11MiB
+ estimated docs per chunk : 26699
+
+Shard shard10002 at localhost:10002
+ data : 36.52MiB docs : 159568 chunks : 4
+ estimated data per chunk : 9.12MiB
+ estimated docs per chunk : 39892
+
+Totals
+ data : 109.86MiB docs : 480000 chunks : 10
+ Shard shard10000 contains 50.06% data, 50.06% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.68% data, 16.68% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.24% data, 33.24% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 57.29MiB docs : 250346 chunks : 3
+ estimated data per chunk : 19.09MiB
+ estimated docs per chunk : 83448
+
+Shard shard10001 at localhost:10001
+ data : 19.1MiB docs : 83483 chunks : 3
+ estimated data per chunk : 6.36MiB
+ estimated docs per chunk : 27827
+
+Shard shard10002 at localhost:10002
+ data : 38.03MiB docs : 166171 chunks : 4
+ estimated data per chunk : 9.5MiB
+ estimated docs per chunk : 41542
+
+Totals
+ data : 114.44MiB docs : 500000 chunks : 10
+ Shard shard10000 contains 50.06% data, 50.06% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.69% data, 16.69% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.23% data, 33.23% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 59.6MiB docs : 260426 chunks : 3
+ estimated data per chunk : 19.86MiB
+ estimated docs per chunk : 86808
+
+Shard shard10001 at localhost:10001
+ data : 19.88MiB docs : 86862 chunks : 3
+ estimated data per chunk : 6.62MiB
+ estimated docs per chunk : 28954
+
+Shard shard10002 at localhost:10002
+ data : 39.53MiB docs : 172712 chunks : 4
+ estimated data per chunk : 9.88MiB
+ estimated docs per chunk : 43178
+
+Totals
+ data : 119.01MiB docs : 520000 chunks : 10
+ Shard shard10000 contains 50.08% data, 50.08% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.7% data, 16.7% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.21% data, 33.21% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 61.88MiB docs : 270379 chunks : 3
+ estimated data per chunk : 20.62MiB
+ estimated docs per chunk : 90126
+
+Shard shard10001 at localhost:10001
+ data : 20.64MiB docs : 90202 chunks : 3
+ estimated data per chunk : 6.88MiB
+ estimated docs per chunk : 30067
+
+Shard shard10002 at localhost:10002
+ data : 41.06MiB docs : 179419 chunks : 4
+ estimated data per chunk : 10.26MiB
+ estimated docs per chunk : 44854
+
+Totals
+ data : 123.59MiB docs : 540000 chunks : 10
+ Shard shard10000 contains 50.07% data, 50.07% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.7% data, 16.7% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 64.16MiB docs : 280362 chunks : 3
+ estimated data per chunk : 21.38MiB
+ estimated docs per chunk : 93454
+
+Shard shard10001 at localhost:10001
+ data : 21.41MiB docs : 93556 chunks : 3
+ estimated data per chunk : 7.13MiB
+ estimated docs per chunk : 31185
+
+Shard shard10002 at localhost:10002
+ data : 42.58MiB docs : 186082 chunks : 4
+ estimated data per chunk : 10.64MiB
+ estimated docs per chunk : 46520
+
+Totals
+ data : 128.17MiB docs : 560000 chunks : 10
+ Shard shard10000 contains 50.06% data, 50.06% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.7% data, 16.7% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 66.46MiB docs : 290386 chunks : 3
+ estimated data per chunk : 22.15MiB
+ estimated docs per chunk : 96795
+
+Shard shard10001 at localhost:10001
+ data : 22.17MiB docs : 96877 chunks : 3
+ estimated data per chunk : 7.39MiB
+ estimated docs per chunk : 32292
+
+Shard shard10002 at localhost:10002
+ data : 44.11MiB docs : 192737 chunks : 4
+ estimated data per chunk : 11.02MiB
+ estimated docs per chunk : 48184
+
+Totals
+ data : 132.75MiB docs : 580000 chunks : 10
+ Shard shard10000 contains 50.06% data, 50.06% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.7% data, 16.7% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.23% data, 33.23% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 68.77MiB docs : 300479 chunks : 3
+ estimated data per chunk : 22.92MiB
+ estimated docs per chunk : 100159
+
+Shard shard10001 at localhost:10001
+ data : 22.92MiB docs : 100176 chunks : 3
+ estimated data per chunk : 7.64MiB
+ estimated docs per chunk : 33392
+
+Shard shard10002 at localhost:10002
+ data : 45.62MiB docs : 199345 chunks : 4
+ estimated data per chunk : 11.4MiB
+ estimated docs per chunk : 49836
+
+Totals
+ data : 137.32MiB docs : 600000 chunks : 10
+ Shard shard10000 contains 50.07% data, 50.07% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.69% data, 16.69% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 71.06MiB docs : 310471 chunks : 3
+ estimated data per chunk : 23.68MiB
+ estimated docs per chunk : 103490
+
+Shard shard10001 at localhost:10001
+ data : 23.7MiB docs : 103552 chunks : 3
+ estimated data per chunk : 7.9MiB
+ estimated docs per chunk : 34517
+
+Shard shard10002 at localhost:10002
+ data : 47.14MiB docs : 205977 chunks : 4
+ estimated data per chunk : 11.78MiB
+ estimated docs per chunk : 51494
+
+Totals
+ data : 141.9MiB docs : 620000 chunks : 10
+ Shard shard10000 contains 50.07% data, 50.07% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.7% data, 16.7% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		10 : Success
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "_id" : "hashed" }
+			chunks:
+				shard10000	3
+				shard10001	3
+				shard10002	4
+			{ "_id" : { "$minKey" : 1 } } -->> { "_id" : NumberLong("-6148914691236517204") } on : shard10000 Timestamp(3, 2) 
+			{ "_id" : NumberLong("-6148914691236517204") } -->> { "_id" : NumberLong("-3074457345618258602") } on : shard10000 Timestamp(3, 3) 
+			{ "_id" : NumberLong("-3074457345618258602") } -->> { "_id" : NumberLong(0) } on : shard10000 Timestamp(4, 0) 
+			{ "_id" : NumberLong(0) } -->> { "_id" : NumberLong("1388435780752875021") } on : shard10001 Timestamp(4, 1) 
+			{ "_id" : NumberLong("1388435780752875021") } -->> { "_id" : NumberLong("2766058998703973263") } on : shard10001 Timestamp(3, 9) 
+			{ "_id" : NumberLong("2766058998703973263") } -->> { "_id" : NumberLong("3074457345618258602") } on : shard10001 Timestamp(3, 10) 
+			{ "_id" : NumberLong("3074457345618258602") } -->> { "_id" : NumberLong("6148914691236517204") } on : shard10002 Timestamp(3, 6) 
+			{ "_id" : NumberLong("6148914691236517204") } -->> { "_id" : NumberLong("7551421052480560362") } on : shard10002 Timestamp(3, 11) 
+			{ "_id" : NumberLong("7551421052480560362") } -->> { "_id" : NumberLong("8947950483918671454") } on : shard10002 Timestamp(3, 12) 
+			{ "_id" : NumberLong("8947950483918671454") } -->> { "_id" : { "$maxKey" : 1 } } on : shard10002 Timestamp(3, 13) 
+	{  "_id" : "test",  "partitioned" : false,  "primary" : "shard10000" }
+
+
+Shard shard10000 at localhost:10000
+ data : 73.36MiB docs : 320523 chunks : 3
+ estimated data per chunk : 24.45MiB
+ estimated docs per chunk : 106841
+
+Shard shard10001 at localhost:10001
+ data : 24.45MiB docs : 106861 chunks : 3
+ estimated data per chunk : 8.15MiB
+ estimated docs per chunk : 35620
+
+Shard shard10002 at localhost:10002
+ data : 48.66MiB docs : 212616 chunks : 4
+ estimated data per chunk : 12.16MiB
+ estimated docs per chunk : 53154
+
+Totals
+ data : 146.48MiB docs : 640000 chunks : 10
+ Shard shard10000 contains 50.08% data, 50.08% docs in cluster, avg obj size on shard : 240B
+ Shard shard10001 contains 16.69% data, 16.69% docs in cluster, avg obj size on shard : 240B
+ Shard shard10002 contains 33.22% data, 33.22% docs in cluster, avg obj size on shard : 240B
+
+
+mongos> [9G[J[9G^C
+bye

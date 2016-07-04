@@ -1,3 +1,108 @@
+MongoDB shell version: 3.0.12
+connecting to: localhost:10004/test
+mongos> use admin[9G[Juse admin[18G
+switched to db admin
+mongos> db.runCommand({addshard:"localhost:10000", name:"shard10000"});[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[72G
+{ "shardAdded" : "shard10000", "ok" : 1 }
+mongos> db.runCommand({addshard:"localhost:10000", name:"shard10000"});[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[71G[9G[Jdb.runCommand[1;34m([0m{addshard:"localhost:10000", name:"shard10000"});[70G[9G[Jdb.runCommand([1;34m{[0maddshard:"localhost:10000", name:"shard10000"});[69G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard1000"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[66G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[65G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[64G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[63G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[62G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[61G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[60G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[59G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[58G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[57G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[56G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[55G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[54G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[53G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[52G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[51G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[50G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[49G[9G[Jdb.runCommand({addshard:"localhost:1000", name:"shard10001"});[48G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[49G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[72G
+{ "shardAdded" : "shard10001", "ok" : 1 }
+mongos> db.runCommand({addshard:"localhost:10000", name:"shard10000"});[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[71G[9G[Jdb.runCommand[1;34m([0m{addshard:"localhost:10000", name:"shard10000"});[70G[9G[Jdb.runCommand([1;34m{[0maddshard:"localhost:10000", name:"shard10000"});[69G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard1000"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[66G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[65G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[64G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[63G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[62G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[61G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[60G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[59G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[58G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[57G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[56G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[55G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[54G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[53G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[52G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[51G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[50G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10002"});[49G[9G[Jdb.runCommand({addshard:"localhost:1000", name:"shard10002"});[48G[9G[Jdb.runCommand({addshard:"localhost:10002", name:"shard10002"});[49G[9G[Jdb.runCommand({addshard:"localhost:10002", name:"shard10002"});[72G
+{ "shardAdded" : "shard10002", "ok" : 1 }
+mongos> use tp_sharding[9G[Juse tp_sharding[24G
+switched to db tp_sharding
+mongos> sh.enableSharding("tp_sharding")[9G[Jsh.enableSharding("tp_sharding")[41G
+{ "ok" : 1 }
+mongos> db.collection.createIndex()[9G[Jdb.collection.createIndex[1;34m([0m)[35G[9G[Jdb.collection.createIndex([1;34m{[0m)[36G[9G[Jdb.collection.createIndex[1;34m([0m{})[37G[9G[Jdb.collection.createIndex([1;34m{[0m})[36G[9G[Jdb.collection.createIndex([1;34m{[0m"})[37G[9G[Jdb.collection.createIndex([1;34m{[0m"f})[38G[9G[Jdb.collection.createIndex([1;34m{[0m"fe})[39G[9G[Jdb.collection.createIndex([1;34m{[0m"fec})[40G[9G[Jdb.collection.createIndex([1;34m{[0m"fech})[41G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha})[42G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha"})[43G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha":})[44G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha": })[45G[9G[Jdb.collection.createIndex([1;34m{[0m"fecha": 1})[46G[9G[Jdb.collection.createIndex[1;34m([0m{"fecha": 1})[47G[9G[Jdb.collection.createIndex({"fecha": 1})[48G[9G[Jdb.collection.createIndex({"fecha": 1})[48G
+{
+	"raw" : {
+		"localhost:10000" : {
+			"createdCollectionAutomatically" : true,
+			"numIndexesBefore" : 1,
+			"numIndexesAfter" : 2,
+			"ok" : 1
+		}
+	},
+	"ok" : 1
+}
+mongos> sh.shardCollection("tp_sharding.people", {"zip": 1} )[9G[Jsh.shardCollection[1;34m([0m"tp_sharding.people", {"zip": 1} )[61G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[60G[9G[Jsh.shardCollection("tp_sharding.people", [1;34m{[0m"zip": 1} )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[58G[9G[Jsh.shardCollection("tp_sharding.people", [1;34m{[0m"zip": 1} )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1} )[60G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": 1 )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"zip":  )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"zip": )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"zip" )[56G[9G[Jsh.shardCollection("tp_sharding.people", {"zip )[55G[9G[Jsh.shardCollection("tp_sharding.people", {"zi )[54G[9G[Jsh.shardCollection("tp_sharding.people", {"z )[53G[9G[Jsh.shardCollection("tp_sharding.people", {" )[52G[9G[Jsh.shardCollection("tp_sharding.people", { )[51G[9G[Jsh.shardCollection("tp_sharding.people",  )[50G[9G[Jsh.shardCollection("tp_sharding.people", { )[51G[9G[Jsh.shardCollection("tp_sharding.people", {" )[52G[9G[Jsh.shardCollection("tp_sharding.people", {"f )[53G[9G[Jsh.shardCollection("tp_sharding.people", {"fe )[54G[9G[Jsh.shardCollection("tp_sharding.people", {"fec )[55G[9G[Jsh.shardCollection("tp_sharding.people", {"fech )[56G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha" )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha":  )[60G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1 )[61G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[62G[9G[Jsh.shardCollection("tp_sharding.people", [1;34m{[0m"fecha": 1} )[61G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[60G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[59G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[58G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[57G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[56G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[55G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[54G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[53G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[52G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[51G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1[1;34m}[0m )[50G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[49G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[48G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[47G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[45G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.people", {"fecha": 1} )[47G[9G[Jsh.shardCollection("tp_sharding.peopl", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.peop", {"fecha": 1} )[45G[9G[Jsh.shardCollection("tp_sharding.peo", {"fecha": 1} )[44G[9G[Jsh.shardCollection("tp_sharding.pe", {"fecha": 1} )[43G[9G[Jsh.shardCollection("tp_sharding.p", {"fecha": 1} )[42G[9G[Jsh.shardCollection("tp_sharding.pu", {"fecha": 1} )[43G[9G[Jsh.shardCollection("tp_sharding.pub", {"fecha": 1} )[44G[9G[Jsh.shardCollection("tp_sharding.publ", {"fecha": 1} )[45G[9G[Jsh.shardCollection("tp_sharding.publi", {"fecha": 1} )[46G[9G[Jsh.shardCollection("tp_sharding.public", {"fecha": 1} )[47G[9G[Jsh.shardCollection("tp_sharding.publica", {"fecha": 1} )[48G[9G[Jsh.shardCollection("tp_sharding.publicac", {"fecha": 1} )[49G[9G[Jsh.shardCollection("tp_sharding.publicaci", {"fecha": 1} )[50G[9G[Jsh.shardCollection("tp_sharding.publicacio", {"fecha": 1} )[51G[9G[Jsh.shardCollection("tp_sharding.publicacion", {"fecha": 1} )[52G[9G[Jsh.shardCollection("tp_sharding.publicacione", {"fecha": 1} )[53G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"fecha": 1} )[54G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"fecha": 1} )[71G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"fecha": 1} )[71G
+{ "collectionsharded" : "tp_sharding.publicaciones", "ok" : 1 }
+mongos> sh.status()[9G[Jsh.status()[20G
+--- Sharding Status --- 
+  sharding version: {
+	"_id" : 1,
+	"minCompatibleVersion" : 5,
+	"currentVersion" : 6,
+	"clusterId" : ObjectId("576f0c9eeb8638bf3a41a079")
+}
+  shards:
+	{  "_id" : "shard10000",  "host" : "localhost:10000" }
+	{  "_id" : "shard10001",  "host" : "localhost:10001" }
+	{  "_id" : "shard10002",  "host" : "localhost:10002" }
+  balancer:
+	Currently enabled:  yes
+	Currently running:  no
+	Failed balancer rounds in last 5 attempts:  0
+	Migration Results for the last 24 hours: 
+		No recent migrations
+  databases:
+	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
+	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
+		tp_sharding.publicaciones
+			shard key: { "fecha" : 1 }
+			chunks:
+				shard10000	1
+			{ "fecha" : { "$minKey" : 1 } } -->> { "fecha" : { "$maxKey" : 1 } } on : shard10000 Timestamp(1, 0) 
+
+mongos> db.publicaciones.getShardDistribution()[9G[Jdb.publicaciones.getShardDistribution()[48G
+
+Shard shard10000 at localhost:10000
+ data : 0B docs : 0 chunks : 1
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Totals
+ data : 0B docs : 0 chunks : 1
+ Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
+
+
+mongos> var randomDate = function randomDate() {[9G[Jvar randomDate = function randomDate() {[49G... var startDate = new Date(2010, 1, 1, 0, 0, 0, 0);[5G[Jvar startDate = new Date(2010, 1, 1, 0, 0, 0, 0);[54G... var endDate = new Date(2014, 12, 31, 0, 0, 0, 0);[5G[Jvar endDate = new Date(2014, 12, 31, 0, 0, 0, 0);[54G... [5G[J[5G... var date = new Date(+startDate + Math.random() * (endDate - startDate));[5G[Jvar date = new Date(+startDate + Math.random() * (endDate - startDate));[77G... var hour = 0 + Math.random() * (11 - 0) | 0;[5G[Jvar hour = 0 + Math.random() * (11 - 0) | 0;[49G... date.setHours(hour);[5G[Jdate.setHours(hour);[25G... return date;[5G[Jreturn date;[17G... }[5G[J}[6Gmongos> [H[2Jmongos> [9G[J[9Gvar publicaciones = [[9G[Jvar publicaciones = [[30G... {[5G[J{[6G... "id": 1,[5G[J"id": 1,[13G... "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[5G[J"titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[77G... "tipoDePublicacion": "productos"[5G[J"tipoDePublicacion": "productos"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 2,[5G[J"id": 2,[13G... "titulo": "Campbell Hausfeld Pistol Grip Blowgun",[5G[J"titulo": "Campbell Hausfeld Pistol Grip Blowgun",[55G... "tipoDePublicacion": "servicios"[5G[J"tipoDePublicacion": "servicios"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 3,[5G[J"id": 3,[13G... "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Se[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set
+[1G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set [2G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set B[3G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bu[4G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bun[5G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bund[6G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundl[7G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle[8G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle"[9G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G... "tipoDePublicacion": "mixta"[5G[J"tipoDePublicacion": "mixta"[33G... }[5G[J}[6G... ][5G[J][6Gmongos> [H[2Jmongos> [9G[J[9Gvar insertData = function(){[9G[Jvar insertData = function(){[37G... for (var i = 0 ; i < 20000; i++){[5G[Jfor (var i = 0 ; i < 20000; i++){[38G... var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.leng[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.lengt
+[1G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length[2G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)[3G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)][4G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G... [5G[J[5G... publicacion.fecha = randomDate();[5G[Jpublicacion.fecha = randomDate();[38G... [5G[J[5G... db.publicaciones.insert(publicacion);[5G[Jdb.publicaciones.insert(publicacion);[42G... }[5G[J}[6G... }[5G[J}[6Gmongos> [H[2Jmongos> [9G[J[9Gsh.status(); db.publicaciones.getShardDistribution(); insertDatr[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertDat[72Ga();[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -34,6 +139,8 @@ Totals
  data : 0B docs : 0 chunks : 1
  Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -86,6 +193,8 @@ Totals
  Shard shard10001 contains 46.63% data, 46.63% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.74% data, 42.74% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -138,6 +247,8 @@ Totals
  Shard shard10001 contains 46.9% data, 46.9% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.6% data, 42.6% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -190,6 +301,8 @@ Totals
  Shard shard10001 contains 46.81% data, 46.81% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.68% data, 42.68% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -243,7 +356,7 @@ Totals
  Shard shard10002 contains 42.73% data, 42.73% docs in cluster, avg obj size on shard : 240B
 
 
-
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -297,7 +410,7 @@ Totals
  Shard shard10002 contains 42.67% data, 42.67% docs in cluster, avg obj size on shard : 240B
 
 
-
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -351,7 +464,7 @@ Totals
  Shard shard10002 contains 42.66% data, 42.66% docs in cluster, avg obj size on shard : 240B
 
 
-
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -404,6 +517,8 @@ Totals
  Shard shard10001 contains 46.83% data, 46.83% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.68% data, 42.68% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[J[9G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -456,6 +571,8 @@ Totals
  Shard shard10001 contains 46.84% data, 46.84% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.66% data, 42.66% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -510,6 +627,8 @@ Totals
  Shard shard10001 contains 46.84% data, 46.84% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -564,6 +683,8 @@ Totals
  Shard shard10001 contains 46.81% data, 46.81% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.71% data, 42.71% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -622,6 +743,8 @@ Totals
  Shard shard10001 contains 46.8% data, 46.8% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.74% data, 42.74% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -680,6 +803,8 @@ Totals
  Shard shard10001 contains 30.45% data, 30.45% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.73% data, 42.73% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -738,6 +863,8 @@ Totals
  Shard shard10001 contains 30.46% data, 30.46% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -796,6 +923,8 @@ Totals
  Shard shard10001 contains 30.43% data, 30.43% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -854,6 +983,8 @@ Totals
  Shard shard10001 contains 30.4% data, 30.4% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.7% data, 42.7% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -912,6 +1043,8 @@ Totals
  Shard shard10001 contains 30.42% data, 30.42% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.69% data, 42.69% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -970,6 +1103,8 @@ Totals
  Shard shard10001 contains 30.41% data, 30.41% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.7% data, 42.7% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -1028,6 +1163,8 @@ Totals
  Shard shard10001 contains 30.4% data, 30.4% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.71% data, 42.71% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -1086,6 +1223,8 @@ Totals
  Shard shard10001 contains 30.38% data, 30.38% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.73% data, 42.73% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -1144,6 +1283,8 @@ Totals
  Shard shard10001 contains 30.38% data, 30.38% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.75% data, 42.75% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -1202,6 +1343,8 @@ Totals
  Shard shard10001 contains 30.39% data, 30.39% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.75% data, 42.75% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -1260,6 +1403,8 @@ Totals
  Shard shard10001 contains 30.4% data, 30.4% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 42.75% data, 42.75% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -1320,6 +1465,8 @@ Totals
  Shard shard10001 contains 30.37% data, 30.37% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 26.52% data, 26.52% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -1380,6 +1527,8 @@ Totals
  Shard shard10001 contains 30.37% data, 30.37% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 26.55% data, 26.55% docs in cluster, avg obj size on shard : 240B
 
+
+mongos> [9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
