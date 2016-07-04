@@ -30,6 +30,16 @@ Shard shard10000 at localhost:10000
  estimated data per chunk : 0B
  estimated docs per chunk : 0
 
+Shard shard10001 at localhost:10001
+ data : 0B docs : 0 chunks : 0
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Shard shard10002 at localhost:10002
+ data : 0B docs : 0 chunks : 0
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
 Totals
  data : 0B docs : 0 chunks : 1
  Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
@@ -1439,7 +1449,3 @@ Totals
  Shard shard10000 contains 43.06% data, 43.06% docs in cluster, avg obj size on shard : 240B
  Shard shard10001 contains 30.38% data, 30.38% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 26.55% data, 26.55% docs in cluster, avg obj size on shard : 240B
-
-
-mongos> db.[9G[Jdb[11G[9G[Jd[10G[9G[J[9G[9G[J[9G^C
-bye

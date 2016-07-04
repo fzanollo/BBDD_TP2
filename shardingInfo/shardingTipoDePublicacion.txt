@@ -1,175 +1,3 @@
-MongoDB shell version: 3.0.12
-connecting to: localhost:10004/test
-mongos> use ad,o[9G[Juse ad,[16G[9G[Juse ad[15G[9G[Juse a[14Gdmin[9G[Juse admin[18G
-switched to db admin
-mongos> db.runCommand({addshard:"localhost:10000", name:"shard10000"});[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[72G
-{ "shardAdded" : "shard10000", "ok" : 1 }
-mongos> [9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[72G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[71G[9G[Jdb.runCommand[1;34m([0m{addshard:"localhost:10000", name:"shard10000"});[70G[9G[Jdb.runCommand([1;34m{[0maddshard:"localhost:10000", name:"shard10000"});[69G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10000"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard1000"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[68G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[67G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[66G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[65G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[64G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[63G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[62G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[61G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[60G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[59G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[58G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[57G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[56G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[55G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[54G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[53G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[52G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[51G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[50G[9G[Jdb.runCommand({addshard:"localhost:10000", name:"shard10001"});[49G[9G[Jdb.runCommand({addshard:"localhost:1000", name:"shard10001"});[48G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[49G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[72G
-{ "shardAdded" : "shard10001", "ok" : 1 }
-mongos> [9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[72G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[71G[9G[Jdb.runCommand[1;34m([0m{addshard:"localhost:10001", name:"shard10001"});[70G[9G[Jdb.runCommand([1;34m{[0maddshard:"localhost:10001", name:"shard10001"});[69G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10001"});[68G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard1000"});[67G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard1000"});[66G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard1000"});[67G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[68G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[67G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[66G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[65G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[64G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[63G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[62G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[61G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[60G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[59G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[58G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[57G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[56G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[55G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[54G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[53G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[52G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[51G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[50G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[49G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[48G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[47G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[48G[9G[Jdb.runCommand({addshard:"localhost:10001", name:"shard10002"});[49G[9G[Jdb.runCommand({addshard:"localhost:1000", name:"shard10002"});[48G[9G[Jdb.runCommand({addshard:"localhost:10002", name:"shard10002"});[49G[9G[Jdb.runCommand({addshard:"localhost:10002", name:"shard10002"});[72G
-{ "shardAdded" : "shard10002", "ok" : 1 }
-mongos> use test_sharding[9G[Juse test_sharding[25G[9G[Juse test_sharding[24G[9G[Juse test_sharding[23G[9G[Juse test_sharding[22G[9G[Juse test_sharding[21G[9G[Juse test_sharding[20G[9G[Juse test_sharding[19G[9G[Juse test_sharding[18G[9G[Juse test_sharding[17G[9G[Juse test_sharding[16G[9G[Juse test_sharding[15G[9G[Juse test_sharding[16G[9G[Juse test_sharding[17G[9G[Juse tes_sharding[16G[9G[Juse te_sharding[15G[9G[Juse t_sharding[14G[9G[Juse tp_sharding[15G[9G[Juse tp_sharding[24G
-switched to db tp_sharding
-mongos> sh.enableSharding("test_sharding")[9G[Jsh.enableSharding[1;34m([0m"test_sharding")[42G[9G[Jsh.enableSharding("test_sharding")[41G[9G[Jsh.enableSharding("test_sharding")[40G[9G[Jsh.enableSharding("test_sharding")[39G[9G[Jsh.enableSharding("test_sharding")[38G[9G[Jsh.enableSharding("test_sharding")[37G[9G[Jsh.enableSharding("test_sharding")[36G[9G[Jsh.enableSharding("test_sharding")[35G[9G[Jsh.enableSharding("test_sharding")[34G[9G[Jsh.enableSharding("test_sharding")[33G[9G[Jsh.enableSharding("test_sharding")[32G[9G[Jsh.enableSharding("tes_sharding")[31G[9G[Jsh.enableSharding("te_sharding")[30G[9G[Jsh.enableSharding("t_sharding")[29G[9G[Jsh.enableSharding("tp_sharding")[30G[9G[Jsh.enableSharding("tp_sharding")[41G
-{ "ok" : 1 }
-mongos> db.collection.createIndex()[9G[Jdb.collection.createIndex[1;34m([0m)[35G[9G[Jdb.collection.createIndex([1;34m{[0m)[36G[9G[Jdb.collection.createIndex([1;34m{[0m")[37G[9G[Jdb.collection.createIndex([1;34m{[0m"t)[38G[9G[Jdb.collection.createIndex([1;34m{[0m"ti)[39G[9G[Jdb.collection.createIndex([1;34m{[0m"tip)[40G[9G[Jdb.collection.createIndex([1;34m{[0m"tipo)[41G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoD)[42G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDe)[43G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDeP)[44G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePu)[45G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePub)[46G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePubl)[47G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePubli)[48G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublic)[49G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublica)[50G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicac)[51G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicaci)[52G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicacio)[53G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicacion)[54G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicacion")[55G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicacion":)[56G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicacion": )[57G[9G[Jdb.collection.createIndex([1;34m{[0m"tipoDePublicacion": 1)[58G[9G[Jdb.collection.createIndex[1;34m([0m{"tipoDePublicacion": 1})[59G[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G
-{
-	"raw" : {
-		"localhost:10000" : {
-			"createdCollectionAutomatically" : true,
-			"numIndexesBefore" : 1,
-			"numIndexesAfter" : 2,
-			"ok" : 1
-		}
-	},
-	"ok" : 1
-}
-mongos> [9G[J[9Gmongos> var publicaciones = [[9G[Jvar publicaciones = [[30G... {[5G[J{[6G... "id": 1,[5G[J"id": 1,[13G... "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[5G[J"titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[77G... "tipoDePublicacion": "productos"[5G[J"tipoDePublicacion": "productos"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 2,[5G[J"id": 2,[13G... "titulo": "Campbell Hausfeld Pistol Grip Blowgun",[5G[J"titulo": "Campbell Hausfeld Pistol Grip Blowgun",[55G... "tipoDePublicacion": "servicios"[5G[J"tipoDePublicacion": "servicios"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 3,[5G[J"id": 3,[13G... "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Se[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set
-[1G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set [2G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set B[3G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bu[4G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bun[5G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bund[6G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundl[7G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle[8G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle"[9G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G... "tipoDePublicacion": "mixta"[5G[J"tipoDePublicacion": "mixta"[33G... }[5G[J}[6G... ][5G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[56G[5G[Jsh.enableSharding("tp_sharding")[37G[5G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[56G[5G[J][6G[5G[J][6Gmongos> [9G[J[9Gmongos> [9G[J[9Gmongos> [9G[J[9Gmongos> [9G[J[9Gmongos> [9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[J[9G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[H[2Jmongos> [9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[H[2Jmongos> [9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[J[9G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[J[9G[9G[J[9Gmongos> for (var i = 0 ; i < 20000; i++){[9G[Jfor (var i = 0 ; i < 20000; i++){[42G... [5G[J[5G... var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.leng[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.lengt
-[1G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length[2G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)[3G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)][4G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G... [5G[J[5G... db.publicaciones.insert(publicacion)[5G[Jdb.publicaciones.insert(publicacion)[41G... }[5G[J}[6G
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-WriteResult({ "nInserted" : 1 })
-mongos> [H[2Jmongos> [9G[J[9Gsh.status()[9G[Jsh.status()[20G
---- Sharding Status --- 
-  sharding version: {
-	"_id" : 1,
-	"minCompatibleVersion" : 5,
-	"currentVersion" : 6,
-	"clusterId" : ObjectId("576efd402824ae578197f1a0")
-}
-  shards:
-	{  "_id" : "shard10000",  "host" : "localhost:10000" }
-	{  "_id" : "shard10001",  "host" : "localhost:10001" }
-	{  "_id" : "shard10002",  "host" : "localhost:10002" }
-  balancer:
-	Currently enabled:  yes
-	Currently running:  no
-	Failed balancer rounds in last 5 attempts:  0
-	Migration Results for the last 24 hours: 
-		No recent migrations
-  databases:
-	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
-	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
-
-mongos> db.people.getShardDistribution()[9G[Jdb.people.getShardDistribution()[41G
-Collection tp_sharding.people is not sharded.
-mongos> [9G[Jdb.people.getShardDistribution()[41G[9G[Jdb.people.getShardDistribution[1;34m([0m)[40G[9G[Jdb.people.getShardDistribution([1;34m)[0m[39G[9G[Jdb.people.getShardDistribution()[38G[9G[Jdb.people.getShardDistribution()[37G[9G[Jdb.people.getShardDistribution()[36G[9G[Jdb.people.getShardDistribution()[35G[9G[Jdb.people.getShardDistribution()[34G[9G[Jdb.people.getShardDistribution()[33G[9G[Jdb.people.getShardDistribution()[32G[9G[Jdb.people.getShardDistribution()[31G[9G[Jdb.people.getShardDistribution()[30G[9G[Jdb.people.getShardDistribution()[29G[9G[Jdb.people.getShardDistribution()[28G[9G[Jdb.people.getShardDistribution()[27G[9G[Jdb.people.getShardDistribution()[26G[9G[Jdb.people.getShardDistribution()[25G[9G[Jdb.people.getShardDistribution()[24G[9G[Jdb.people.getShardDistribution()[23G[9G[Jdb.people.getShardDistribution()[22G[9G[Jdb.people.getShardDistribution()[21G[9G[Jdb.people.getShardDistribution()[20G[9G[Jdb.people.getShardDistribution()[19G[9G[Jdb.people.getShardDistribution()[18G[9G[Jdb.people.getShardDistribution()[19G[9G[Jdb.people.getShardDistribution()[18G[9G[Jdb.peopl.getShardDistribution()[17G[9G[Jdb.peop.getShardDistribution()[16G[9G[Jdb.peo.getShardDistribution()[15G[9G[Jdb.pe.getShardDistribution()[14G[9G[Jdb.p.getShardDistribution()[13G[9G[Jdb..getShardDistribution()[12G[9G[Jdb.p.getShardDistribution()[13G[9G[Jdb.pu.getShardDistribution()[14G[9G[Jdb.pub.getShardDistribution()[15G[9G[Jdb.publ.getShardDistribution()[16G[9G[Jdb.publi.getShardDistribution()[17G[9G[Jdb.public.getShardDistribution()[18G[9G[Jdb.publica.getShardDistribution()[19G[9G[Jdb.publicac.getShardDistribution()[20G[9G[Jdb.publicaci.getShardDistribution()[21G[9G[Jdb.publicacio.getShardDistribution()[22G[9G[Jdb.publicacion.getShardDistribution()[23G[9G[Jdb.publicacione.getShardDistribution()[24G[9G[Jdb.publicaciones.getShardDistribution()[25G[9G[Jdb.publicaciones.getShardDistribution()[48G
-Collection tp_sharding.publicaciones is not sharded.
-mongos> [9G[Jdb.publicaciones.getShardDistribution()[48G[9G[J[9Gdb.publicaciones.find()[9G[Jdb.publicaciones.find()[32G
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b4d"), "id" : 2, "titulo" : "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion" : "servicios" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b4e"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b4f"), "id" : 2, "titulo" : "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion" : "servicios" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b50"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b51"), "id" : 3, "titulo" : "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion" : "mixta" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b52"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b53"), "id" : 2, "titulo" : "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion" : "servicios" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b54"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b55"), "id" : 2, "titulo" : "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion" : "servicios" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b56"), "id" : 2, "titulo" : "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion" : "servicios" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b57"), "id" : 3, "titulo" : "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion" : "mixta" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b58"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b59"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b5a"), "id" : 3, "titulo" : "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion" : "mixta" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b5b"), "id" : 3, "titulo" : "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion" : "mixta" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b5c"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b5d"), "id" : 3, "titulo" : "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion" : "mixta" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b5e"), "id" : 2, "titulo" : "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion" : "servicios" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b5f"), "id" : 1, "titulo" : "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion" : "productos" }
-{ "_id" : ObjectId("576f048d9e41ea0b35e36b60"), "id" : 2, "titulo" : "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion" : "servicios" }
-Type "it" for more
-mongos> [9G[Jdb.publicaciones.find()[32G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.people.getShardDistribution()[41G[9G[Jsh.status()[20G[9G[Jfor (var i = 0 ; i < 20000; i++){  var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  db.publicaciones.insert(publicacion) }[4G[2A[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jsh.enableSharding("tp_sharding")[41G[9G[Juse tp_sharding[24G[9G[Jdb.runCommand({addshard:"localhost:10002", name:"shard10002"});[72G[9G[Juse tp_sharding[24G[9G[Jsh.enableSharding("tp_sharding")[41G[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jfor (var i = 0 ; i < 20000; i++){  var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  db.publicaciones.insert(publicacion) }[4G[2A[9G[Jsh.status()[20G[9G[Jdb.people.getShardDistribution()[41G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.publicaciones.find()[32G[9G[J[9G[H[2Jmongos> [9G[J[9G[9G[Jdb.publicaciones.find()[32G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.people.getShardDistribution()[41G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.people.getShardDistribution()[41G[9G[Jsh.status()[20G[9G[Jfor (var i = 0 ; i < 20000; i++){  var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  db.publicaciones.insert(publicacion) }[4G[2A[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jsh.enableSharding("tp_sharding")[41G[9G[Juse tp_sharding[24G[9G[Jsh.enableSharding("tp_sharding")[41G[9G[Juse tp_sharding[24G[9G[Jsh.enableSharding("tp_sharding")[41G[9G[Juse tp_sharding[24G[9G[Jsh.enableSharding("tp_sharding")[41G[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jfor (var i = 0 ; i < 20000; i++){  var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  db.publicaciones.insert(publicacion) }[4G[2A[9G[Jsh.status()[20G[9G[Jsh.status()[20G
---- Sharding Status --- 
-  sharding version: {
-	"_id" : 1,
-	"minCompatibleVersion" : 5,
-	"currentVersion" : 6,
-	"clusterId" : ObjectId("576efd402824ae578197f1a0")
-}
-  shards:
-	{  "_id" : "shard10000",  "host" : "localhost:10000" }
-	{  "_id" : "shard10001",  "host" : "localhost:10001" }
-	{  "_id" : "shard10002",  "host" : "localhost:10002" }
-  balancer:
-	Currently enabled:  yes
-	Currently running:  no
-	Failed balancer rounds in last 5 attempts:  0
-	Migration Results for the last 24 hours: 
-		No recent migrations
-  databases:
-	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
-	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
-
-mongos> [9G[Jsh.status()[20G[9G[Jdb.publicaciones.find()[32G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.publicaciones.getShardDistribution()[48G
-Collection tp_sharding.publicaciones is not sharded.
-mongos> db.public[9G[Jdb.publicaciones[25G.drop()[9G[Jdb.publicaciones.drop()[32G
-true
-mongos> use test_sharding[9G[Juse test_sharding[25G[9G[Juse test_sharding[24G[9G[Juse test_sharding[23G[9G[Juse test_sharding[22G[9G[Juse test_sharding[21G[9G[Juse test_sharding[20G[9G[Juse test_sharding[19G[9G[Juse test_sharding[18G[9G[Juse test_sharding[17G[9G[Juse tes_sharding[16G[9G[Juse te_sharding[15G[9G[Juse t_sharding[14G[9G[Juse tp_sharding[15G[9G[Juse tp_sharding[24G
-switched to db tp_sharding
-mongos> sh.enableSharding("test_sharding")[9G[Jsh.enableSharding[1;34m([0m"test_sharding")[42G[9G[Jsh.enableSharding("test_sharding")[41G[9G[Jsh.enableSharding("test_sharding")[40G[9G[Jsh.enableSharding("test_sharding")[39G[9G[Jsh.enableSharding("test_sharding")[38G[9G[Jsh.enableSharding("test_sharding")[37G[9G[Jsh.enableSharding("test_sharding")[36G[9G[Jsh.enableSharding("test_sharding")[35G[9G[Jsh.enableSharding("test_sharding")[34G[9G[Jsh.enableSharding("test_sharding")[33G[9G[Jsh.enableSharding("test_sharding")[32G[9G[Jsh.enableSharding("tes_sharding")[31G[9G[Jsh.enableSharding("te_sharding")[30G[9G[Jsh.enableSharding("t_sharding")[29G[9G[Jsh.enableSharding("tp_sharding")[30G[9G[Jsh.enableSharding("tp_sharding")[41G
-{ "ok" : 0, "errmsg" : "already enabled" }
-mongos> [9G[Jsh.enableSharding("tp_sharding")[41G[9G[Juse tp_sharding[24G[9G[Jdb.publicaciones.drop()[32G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jsh.status()[20G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jsh.status()[20G[9G[Jdb.publicaciones.find()[32G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.people.getShardDistribution()[41G[9G[Jsh.status()[20G[9G[Jfor (var i = 0 ; i < 20000; i++){  var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];  db.publicaciones.insert(publicacion) }[4G[2A[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jsh.enableSharding("tp_sharding")[41G[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G[9G[Jdb.collection.createIndex({"tipoDePublicacion": 1})[60G
-{
-	"raw" : {
-		"localhost:10000" : {
-			"createdCollectionAutomatically" : false,
-			"numIndexesBefore" : 2,
-			"numIndexesAfter" : 2,
-			"note" : "all indexes already exist",
-			"ok" : 1
-		}
-	},
-	"ok" : 1
-}
-mongos> sh.shardCollection("test_sharding.people", {"zip": 1} )[9G[Jsh.shardCollection[1;34m([0m"test_sharding.people", {"zip": 1} )[63G[9G[Jsh.shardCollection("test_sharding.people", {"zip": 1} )[62G[9G[Jsh.shardCollection("test_sharding.people", {"zip": 1 )[61G[9G[Jsh.shardCollection("test_sharding.people", {"zip":  )[60G[9G[Jsh.shardCollection("test_sharding.people", {"zip": )[59G[9G[Jsh.shardCollection("test_sharding.people", {"zip" )[58G[9G[Jsh.shardCollection("test_sharding.people", {"zip )[57G[9G[Jsh.shardCollection("test_sharding.people", {"zi )[56G[9G[Jsh.shardCollection("test_sharding.people", {"z )[55G[9G[Jsh.shardCollection("test_sharding.people", {" )[54G[9G[Jsh.shardCollection("test_sharding.people", { )[53G[9G[Jsh.shardCollection("test_sharding.people",  )[52G[9G[Jsh.shardCollection("test_sharding.people", { )[53G[9G[Jsh.shardCollection("test_sharding.people", {" )[54G[9G[Jsh.shardCollection("test_sharding.people", {"t )[55G[9G[Jsh.shardCollection("test_sharding.people", {"ti )[56G[9G[Jsh.shardCollection("test_sharding.people", {"tip )[57G[9G[Jsh.shardCollection("test_sharding.people", {"tipo )[58G[9G[Jsh.shardCollection("test_sharding.people", {"tipoD )[59G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDe )[60G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDeP )[61G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePu )[62G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePub )[63G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePubl )[64G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePubli )[65G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublic )[66G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublica )[67G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicac )[68G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicaci )[69G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacio )[70G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion )[71G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion" )[72G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": )[73G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion":  )[74G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1 )[75G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[76G[9G[Jsh.shardCollection("test_sharding.people", [1;34m{[0m"tipoDePublicacion": 1} )[75G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[74G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[73G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[72G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[71G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[70G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[69G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[68G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[67G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[66G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[65G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[64G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[63G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[62G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[61G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[60G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[59G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[58G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[57G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[56G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[55G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[54G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[53G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1[1;34m}[0m )[52G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[51G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[50G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[49G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[48G[9G[Jsh.shardCollection("test_sharding.people", {"tipoDePublicacion": 1} )[49G[9G[Jsh.shardCollection("test_sharding.peopl", {"tipoDePublicacion": 1} )[48G[9G[Jsh.shardCollection("test_sharding.peop", {"tipoDePublicacion": 1} )[47G[9G[Jsh.shardCollection("test_sharding.peo", {"tipoDePublicacion": 1} )[46G[9G[Jsh.shardCollection("test_sharding.pe", {"tipoDePublicacion": 1} )[45G[9G[Jsh.shardCollection("test_sharding.p", {"tipoDePublicacion": 1} )[44G[9G[Jsh.shardCollection("test_sharding.pu", {"tipoDePublicacion": 1} )[45G[9G[Jsh.shardCollection("test_sharding.pub", {"tipoDePublicacion": 1} )[46G[9G[Jsh.shardCollection("test_sharding.publ", {"tipoDePublicacion": 1} )[47G[9G[Jsh.shardCollection("test_sharding.publi", {"tipoDePublicacion": 1} )[48G[9G[Jsh.shardCollection("test_sharding.public", {"tipoDePublicacion": 1} )[49G[9G[Jsh.shardCollection("test_sharding.publica", {"tipoDePublicacion": 1} )[50G[9G[Jsh.shardCollection("test_sharding.publicac", {"tipoDePublicacion": 1} )[51G[9G[Jsh.shardCollection("test_sharding.publicaci", {"tipoDePublicacion": 1} )
-[1A[52G[9G[Jsh.shardCollection("test_sharding.publicacio", {"tipoDePublicacion": 1} )[1A[53G[9G[Jsh.shardCollection("test_sharding.publicacion", {"tipoDePublicacion": 1} )[1A[54G[9G[Jsh.shardCollection("test_sharding.publicacione", {"tipoDePublicacion": 1} )[1A[55G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[56G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[55G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[54G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[53G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[52G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[51G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[50G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[49G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[48G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[47G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[46G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[45G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[44G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[43G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[42G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[41G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[40G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[39G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[38G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[37G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[36G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[35G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[34G[9G[Jsh.shardCollection("test_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[33G[9G[Jsh.shardCollection("tes_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[32G[9G[Jsh.shardCollection("te_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[31G[9G[Jsh.shardCollection("t_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[30G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"tipoDePublicacion": 1} )[1A[31G[9G[Jsh.shardCollection("tp_sharding.publicaciones", {"tipoDePublicacion": 1} )[3G
-{ "collectionsharded" : "tp_sharding.publicaciones", "ok" : 1 }
-mongos> [9G[J[9Gmongos> [H[2Jmongos> [9G[J[9Gvar publicaciones = [[9G[Jvar publicaciones = [[30G... {[5G[J{[6G... "id": 1,[5G[J"id": 1,[13G... "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[5G[J"titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster",[77G... "tipoDePublicacion": "productos"[5G[J"tipoDePublicacion": "productos"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 2,[5G[J"id": 2,[13G... "titulo": "Campbell Hausfeld Pistol Grip Blowgun",[5G[J"titulo": "Campbell Hausfeld Pistol Grip Blowgun",[55G... "tipoDePublicacion": "servicios"[5G[J"tipoDePublicacion": "servicios"[37G... },[5G[J},[7G... {[5G[J{[6G... "id": 3,[5G[J"id": 3,[13G... "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Se[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set
-[1G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set [2G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set B[3G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bu[4G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bun[5G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bund[6G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundl[7G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle[8G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle"[9G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G[1A[5G[J"titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle",[10G... "tipoDePublicacion": "mixta"[5G[J"tipoDePublicacion": "mixta"[33G... }[5G[J}[6G... ][5G[J][6Gmongos> [H[2Jmongos> [9G[J[9G[9G[Jvar publicaciones = [ { "id": 1, "titulo": "Hitachi 2 1/2 15 Gauge Angled Finish Nailer With Air Duster", "tipoDePublicacion": "productos" }, { "id": 2, "titulo": "Campbell Hausfeld Pistol Grip Blowgun", "tipoDePublicacion": "servicios" }, { "id": 3, "titulo": "Bostitch 18v Lithium 1/2 Drill/driver Kit And Bonus Drill Bit Set Bundle", "tipoDePublicacion": "mixta" } ][58G[4A[9G[J[9Gsh.status()[9G[Jsh.status()[20G
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
@@ -196,60 +24,24 @@ mongos> [9G[J[9Gmongos> [H[2Jmongos> [9G[J[9Gvar publicaciones = [[9G[
 				shard10000	1
 			{ "tipoDePublicacion" : { "$minKey" : 1 } } -->> { "tipoDePublicacion" : { "$maxKey" : 1 } } on : shard10000 Timestamp(1, 0) 
 
-mongos> db.publicaciones.getShardDistribution()[9G[Jdb.publicaciones.getShardDistribution()[48G
-
 Shard shard10000 at localhost:10000
  data : 0B docs : 0 chunks : 1
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Shard shard10001 at localhost:10001
+ data : 0B docs : 0 chunks : 0
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Shard shard10002 at localhost:10002
+ data : 0B docs : 0 chunks : 0
  estimated data per chunk : 0B
  estimated docs per chunk : 0
 
 Totals
  data : 0B docs : 0 chunks : 1
  Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
-
-
-mongos> [9G[J[9Gmongos> for (var i = 0 ; i < 20000; i++){[9G[Jfor (var i = 0 ; i < 20000; i++){[42G... [5G[J[5G... var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.leng[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.lengt
-[1G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length[2G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)[3G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)][4G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G... [5G[J[5G... db.publicaciones.insert(publicacion)[5G[Jdb.publicaciones.insert(publicacion)[41G... }[5G[J[5G[H[2J... [5G[J[5G[H[2J... [5G[J[5G[5G[J[5G... [5G[J[5Gmongos> [H[2Jmongos> [9G[J[9G[9G[J;[10G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.publicaciones.getShardDistribution()[48G
-
-
-
-
-
-
-
-
-
-Shard shard10000 at localhost:10000
- data : 0B docs : 0 chunks : 1
- estimated data per chunk : 0B
- estimated docs per chunk : 0
-
-Totals
- data : 0B docs : 0 chunks : 1
- Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
-
-
-mongos> [9G[J[9Gmongos> var insertData = function(){[9G[Jvar insertData = function(){[37G... for (var i = 0 ; i < 20000; i++){[5G[Jfor (var i = 0 ; i < 20000; i++){[38G... var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.leng[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.lengt
-[1G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length[2G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)[3G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)][4G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G[1A[5G[Jvar publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)];[5G... db.publicaciones.insert(publicacion)[5G[Jdb.publicaciones.insert(publicacion)[41G... }[5G[J}[6G... }[5G[J}[6Gmongos> [H[2Jmongos> [9G[J[9Gi[9G[J[9G[9G[Jvar insertData = function(){ for (var i = 0 ; i < 20000; i++){ var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)]; db.publicaciones.insert(publicacion) } }[33G[2A[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.publicaciones.getShardDistribution()[48G
-
-
-
-
-
-
-
-
-Shard shard10000 at localhost:10000
- data : 0B docs : 0 chunks : 1
- estimated data per chunk : 0B
- estimated docs per chunk : 0
-
-Totals
- data : 0B docs : 0 chunks : 1
- Shard shard10000 contains NaN% data, NaN% docs in cluster, avg obj size on shard : NaNGiB
-
-
-mongos> [9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jvar insertData = function(){ for (var i = 0 ; i < 20000; i++){ var publicacion = publicaciones[Math.floor(Math.random()*publicaciones.length)]; db.publicaciones.insert(publicacion) } }[33G[2A[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[J[9G[H[2Jmongos> [9G[J[9Ginset[9G[Jinse[13GrtDar[9G[JinsertDa[17Gta()[9G[JinsertData()[21Gmongos> [H[2Jmongos> [9G[J[9Gsh.status()[9G[Jsh.status()[20G
 
 --- Sharding Status --- 
   sharding version: {
@@ -304,64 +96,6 @@ Totals
  Shard shard10001 contains 33.66% data, 33.66% docs in cluster, avg obj size on shard : 240B
  Shard shard10002 contains 33.28% data, 33.28% docs in cluster, avg obj size on shard : 240B
 
-
-mongos> [9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jsh.status()[20G[9G[JinsertData()[21G[9G[JinsertData()[21Gmongos> [9G[JinsertData()[21G[9G[J[9G[9G[JinsertData()[21G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jsh.status()[20G[9G[Jsh.status()[20G
-
---- Sharding Status --- 
-  sharding version: {
-	"_id" : 1,
-	"minCompatibleVersion" : 5,
-	"currentVersion" : 6,
-	"clusterId" : ObjectId("576efd402824ae578197f1a0")
-}
-  shards:
-	{  "_id" : "shard10000",  "host" : "localhost:10000" }
-	{  "_id" : "shard10001",  "host" : "localhost:10001" }
-	{  "_id" : "shard10002",  "host" : "localhost:10002" }
-  balancer:
-	Currently enabled:  yes
-	Currently running:  no
-	Failed balancer rounds in last 5 attempts:  0
-	Migration Results for the last 24 hours: 
-		2 : Success
-  databases:
-	{  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
-	{  "_id" : "tp_sharding",  "partitioned" : true,  "primary" : "shard10000" }
-		tp_sharding.publicaciones
-			shard key: { "tipoDePublicacion" : 1 }
-			chunks:
-				shard10000	1
-				shard10001	1
-				shard10002	1
-			{ "tipoDePublicacion" : { "$minKey" : 1 } } -->> { "tipoDePublicacion" : "productos" } on : shard10001 Timestamp(2, 0) 
-			{ "tipoDePublicacion" : "productos" } -->> { "tipoDePublicacion" : "servicios" } on : shard10002 Timestamp(3, 0) 
-			{ "tipoDePublicacion" : "servicios" } -->> { "tipoDePublicacion" : { "$maxKey" : 1 } } on : shard10000 Timestamp(3, 1) 
-
-mongos> [9G[Jsh.status()[20G[9G[JinsertData()[21G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jdb.publicaciones.getShardDistribution()[48G
-
-Shard shard10000 at localhost:10000
- data : 3.02MiB docs : 13218 chunks : 1
- estimated data per chunk : 3.02MiB
- estimated docs per chunk : 13218
-
-Shard shard10001 at localhost:10001
- data : 3.07MiB docs : 13425 chunks : 1
- estimated data per chunk : 3.07MiB
- estimated docs per chunk : 13425
-
-Shard shard10002 at localhost:10002
- data : 3.05MiB docs : 13357 chunks : 1
- estimated data per chunk : 3.05MiB
- estimated docs per chunk : 13357
-
-Totals
- data : 9.15MiB docs : 40000 chunks : 3
- Shard shard10000 contains 33.04% data, 33.04% docs in cluster, avg obj size on shard : 240B
- Shard shard10001 contains 33.56% data, 33.56% docs in cluster, avg obj size on shard : 240B
- Shard shard10002 contains 33.39% data, 33.39% docs in cluster, avg obj size on shard : 240B
-
-
-mongos> [9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jsh.status()[20G[9G[JinsertData()[21G; sh[9G[JinsertData(); s[24G[9G[JinsertData(); [23G[9G[JinsertData();[22G[9G[JinsertData()[21G[9G[JinsertData([20G[9G[JinsertData[19G[9G[JinsertDat[18G[9G[JinsertDa[17G[9G[JinsertD[16G[9G[Jinsert[15G[9G[Jinser[14G[9G[Jinse[13G[9G[Jins[12G[9G[Jin[11G[9G[Ji[10G[9G[J[9G[9G[Jdb.publicaciones.getShardDistribution()[48G[9G[Jsh.status()[20G[9G[JinsertData()[21G[9G[Jsh.status()[20G[9G[JinsertData()[21G; sh.status(); [9G[JinsertData(); sh.status();[35G[9G[JinsertData(); sh.status()[34G[9G[JinsertData(); sh.status([33G[9G[JinsertData(); sh.status[32G[9G[JinsertData(); sh.statu[31G[9G[JinsertData(); sh.stat[30G[9G[JinsertData(); sh.sta[29G[9G[JinsertData(); sh.st[28G[9G[JinsertData(); sh.s[27G[9G[JinsertData(); sh.[26G[9G[JinsertData(); sh[25G[9G[JinsertData(); s[24G[9G[JinsertData(); [23G[9G[JinsertData();[22G[9G[JinsertData()[21G[9G[JinsertData([20G[9G[JinsertData[19G[9G[JinsertDat[18G[9G[JinsertDa[17G[9G[JinsertD[16G[9G[Jinsert[15G[9G[Jinser[14G[9G[Jinse[13G[9G[Jins[12G[9G[Jin[11G[9G[Ji[10G[9G[J[9Gsh.status(); db.publicaciones.getShardDistribution(); inset[9G[Jsh.status(); db.publicaciones.getShardDistribution(); inse[67GrtData();[9G[Jsh.status(); db.publicaciones.getShardDistribution(); insertData();[76G
 --- Sharding Status --- 
   sharding version: {
 	"_id" : 1,
