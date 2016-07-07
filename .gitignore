@@ -3,6 +3,10 @@
 limpiarDatos.py
 pandasTest.py
 
+*.aux
+*.toc
+*.tex.backup
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
