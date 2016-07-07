@@ -1,0 +1,181 @@
+MapReduce es un modelo de programación para el procesamiento y creación de grandes colecciones de datos.
+
+Consiste de dos partes:
+\begin{itemize}
+ \item Map() se encarga de filtrar y organizar los datos, produciendo una lista de pares (clave, valor) por cada llamada. Luego de esto el framework agrupa los pares con la misma clave, creando un grupo por cada una de las diferentes claves generadas.
+ \item Reduce(clave, valores) aplica funciones sobre los valores agrupados en el map. Por ejemplo, suma todos los valores, saca el promedio, etc. Retornando un resultado por cada clave.
+\end{itemize}
+
+Notar que estos procedimientos (Map y Reduce) son paralelizables, con lo cual pueden ser distribuidos en diferentes unidades (por ejemplo clusters) para su procesamiento.
+
+A continuación listamos todas las consultas a implementar, utilizando MapReduce, requeridas, con su respectivo código y una pequeña explicación del mismo.
+
+\subsection{El importe total de ventas por usuario}
+
+\begin{lstlisting}[language=JavaScript]
+var mapFunctionA = function(){
+	emit(this.vendedor, this.importe)
+};
+
+var reduceFunctionA = function(userId, importes){
+	return Array.sum(importes);
+}
+
+db.Ventas.mapReduce( mapFunctionA, reduceFunctionA, {out: "mapReduceA"} )
+
+db.mapReduceA.find()
+\end{lstlisting}
+
+\begin{description}
+ \item[linea 9] Se aplica el MapReduce sobre la colección Ventas.
+ \item[linea 2] Como clave se eligió el id del usuario que realiza la venta (i.e. el e-mail del vendedor) y el valor es el importe de la misma.
+ \item[linea 5] Con esto se obtiene una lista por vendedor con todos los importes de sus compras.
+ \item[linea 6] Los cuales son sumados y se retorna dicha suma.
+\end{description}
+
+\newpage
+%-----------------------------------------------------------------------------------------------
+\subsection{La reputación historica de cada usuario según la calificación}
+
+\begin{lstlisting}[language=JavaScript]
+var mapFunctionB = function(){
+	emit(this.vendedor, this.calificacionVendedor);
+	emit(this.comprador, this.calificacionComprador);
+};
+
+var reduceFunctionB = function(userId, calificaciones){
+	suma = Array.sum(calificaciones);
+	promedio = suma / calificaciones.length
+	return promedio;
+}
+
+db.Ventas.mapReduce( mapFunctionB, reduceFunctionB, {out: "mapReduceB"} )
+
+db.mapReduceB.find()
+\end{lstlisting}
+
+\begin{description}
+ \item[linea 12] Se aplica el MapReduce sobre la colección Ventas.
+ \item[lineas 2 y 3] Se emiten dos datos, uno que contiene el id del vendedor y otro del comprador, ambos con la calificación correspondiente como valor.
+ \item[linea 6] Con esto se obtiene una lista por usuario con todas sus calificaciones (tanto de compras como de ventas).
+ \item[lineas 7 y 8] Se retorna el promedio de las calificaciones (por cada usuario).
+\end{description}
+
+%-----------------------------------------------------------------------------------------------
+\subsection{Las operaciones con comisión más alta}
+
+\begin{lstlisting}[language=JavaScript]
+404 NOT FOUND
+\end{lstlisting}
+
+\newpage
+%-----------------------------------------------------------------------------------------------
+\subsection{El monto total facturado por año}
+
+\begin{lstlisting}[language=JavaScript]
+var mapFunctionD = function(){
+	facturaciones = new Array();
+
+	if(this.hasOwnProperty('abonoFijo')){
+		var abono = this.abonoFijo.abono;
+		facturaciones.push(abono);
+	}
+
+	if(this.hasOwnProperty('comisiones')){
+		var comisiones = this.comisiones;
+
+		for (var i = 0; i < comisiones.length; i++) {
+			facturaciones.push(comisiones[i].comision)
+		}
+	}
+
+	emit(this.fecha.slice(this.fecha.length-2, this.fecha.length), facturaciones)
+};
+
+var reduceFunctionD = function(year, facturaciones){
+	
+	facturacionesFlattened = facturaciones.reduce(function(a, b){return a.concat(b)}, []);
+
+	facturacionAnual = Array.sum(facturacionesFlattened);
+
+	return facturacionAnual;
+}
+
+db.Facturas.mapReduce( mapFunctionD, reduceFunctionD, {out: "mapReduceD"} )
+
+db.mapReduceD.find()
+\end{lstlisting}
+
+\begin{description}
+ \item[linea 29] Se aplica el MapReduce sobre la colección Facturas.
+ \item[lineas 4 a 7] Si el usuario tiene facturación por abono fijo (i.e. Rubí Oriente) se agrega dicha facturación a la lista de facturaciones.
+ \item[lineas 9 a 15] Si el usuario tiene una o más facturaciones por comisión se agregan todas ellas a la lista de facturaciones.
+ \item[linea 17] Se utiliza como clave el año.
+ \item[linea 20] Con esto se obtiene una lista por año con todas las facturaciones (de comisiones o abonos, de todos los usuarios).
+ \item[lineas 24 y 26] Se suman todas las facturaciones y se retorna dicha suma.
+\end{description}
+
+\newpage
+%-----------------------------------------------------------------------------------------------
+\subsection{El monto total facturado por año de las operaciones pertenecientes a usuarios con suscripciones Rubí Oriente}
+
+\begin{lstlisting}[language=JavaScript]
+var mapFunctionE = function(){
+	facturaciones = new Array();
+
+	if(this.hasOwnProperty('abonoFijo')){
+		var abono = this.abonoFijo.abono;
+		facturaciones.push(abono);
+	
+		if(this.hasOwnProperty('comisiones')){
+			var comisiones = this.comisiones;
+
+			for (var i = 0; i < comisiones.length; i++) {
+				facturaciones.push(comisiones[i].comision)
+			}
+		}
+
+		emit(this.fecha.slice(this.fecha.length-2, this.fecha.length), facturaciones)
+	}
+};
+
+var reduceFunctionE = function(year, facturaciones){
+	
+	var facturacionesFlattened = 0;
+	facturacionesFlattened = facturaciones.reduce(function(a, b){return a.concat(b)}, []);
+
+	facturacionAnual = Array.sum(facturacionesFlattened);
+	return (facturacionAnual);
+}
+
+db.Facturas.mapReduce( mapFunctionE, reduceFunctionE, {out: "mapReduceE"} )
+
+db.mapReduceE.find()
+\end{lstlisting}
+
+La funcionalidad es igual al anterior pero en este caso sólo se emiten todas las facturaciones si el usuario posee un abono fijo (i.e. Rubí Oriente).\\
+
+\newpage
+%-----------------------------------------------------------------------------------------------
+\subsection{El total de las publicaciones por tipo de publicación (productos, servicios, mixtas}
+
+\begin{lstlisting}[language=JavaScript]
+var mapFunctionF = function(){
+	emit(this.tipoDePublicacion, this.id);
+};
+
+var reduceFunctionF = function(tipoDePublicacion, publicaciones){
+	return publicaciones.length;
+}
+
+db.Publicaciones.mapReduce( mapFunctionF, reduceFunctionF, {out: "mapReduceF"} )
+
+db.mapReduceF.find()
+\end{lstlisting}
+
+\begin{description}
+ \item[linea 9] Se aplica el MapReduce sobre la colección Publicaciones.
+ \item[linea 2] Se toma el tipo de publicación como clave, el valor es el id (único para cada publicación).
+ \item[linea 5] Con esto se obtiene una lista de todas las publicaciones agrupadas por tipo de publicación.
+ \item[linea 6] Se retorna la cantidad de publicaciones en cada grupo.
+\end{description}
