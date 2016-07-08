@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.2}{Consultas SQL}{}% 2
+\BOOKMARK [1][-]{section.3}{Map Reduce}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{El importe total de ventas por usuario}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{La reputaci\363n historica de cada usuario seg\372n la calificaci\363n}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Las operaciones con comisi\363n m\341s alta}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{El monto total facturado por a\361o}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{El monto total facturado por a\361o de las operaciones pertenecientes a usuarios con suscripciones Rub\355 Oriente}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.6}{El total de las publicaciones por tipo de publicaci\363n \(productos, servicios, mixtas}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Sharding}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Introducci\363n}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Estructura de un sharded cluster}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Balanceo y migraci\363n}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{Elecci\363n de `Shard key'}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.5}{Implementaci\363n}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Shard por \355ndice simple: Tipo de publicaci\363n}{subsection.4.5}% 16
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Shard por \355ndice simple: Fecha}{subsection.4.5}% 17
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Shard por Hash: Id}{subsection.4.5}% 18
+\BOOKMARK [2][-]{subsection.4.6}{Conclusi\363n}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.7}{Fuentes}{section.4}% 20

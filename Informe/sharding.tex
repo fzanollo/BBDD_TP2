@@ -19,7 +19,6 @@ se mantendrá próxima (en la mayoría de los casos).
  \caption{Diagrama de sharding}
 \end{figure}
 
-
 Por ejemplo, si en una colección se elige `mes del año' como `shard key', y tengo tres
 chunks, para el primer rango puedo tener los datos de Enero a Abril, para el segundo de Abril a Agosto, y el último de Agosto a Diciembre.
 A medida que se agregue información, puede suceder que se dividan estos chunks, y quede por ejemplo un chunk por mes del año.
@@ -37,7 +36,6 @@ A partir de ese momento no será posible dividir para formar nuevos rangos, por 
 Los shards se distribuirán en diferentes servidores, lo deseable es contar con la información distribuida de la mejor forma
 posible para optimizar las lecturas y escrituras. Además de dividirse, un chunk puede ser migrado de un shard a otro, de 
 esta forma se busca balancear la carga entre los servidores.
-
 
 \begin{figure}[h!]
  \centering
@@ -83,38 +81,54 @@ Se utiliza la arquitectura de prueba
 \end{figure}
 
 Trabajando sobre publicaciones con el siguiente esquema.
-{AGREGAR ESQUEMA}
+
+\begin{lstlisting}[language=JavaScript]
+	{
+	"id": (Integer),
+	"titulo": (String),
+	"tipoDePublicacion": (productos | servicios | mixta),
+	"fecha": (Date)
+	}
+\end{lstlisting}
 
 Generamos los datos de forma aleatoria(uniformemente) sobre un período de años acotado (5 años), `tipo de publicación' puede tomar tres valores
-(servicios, artículos y mixta).
-Creamos tres shards para la colección:
+(servicios, productos y mixta).\\
 
-\begin{enumerate}
-\item 
-En primera instancia escogimos `tipo de publicación' como shard key. Obtuvimos una distribución pareja, ya que eran 3 shards
-para 3 rangos posibles. A simple vista podría parecer una buena clave, pero hay que tener en cuenta que los datos reales
-podrían tener otra distribución, y la baja cardinalidad en ese caso sería un problema, suponiendo un 90\% de publicaciones de artículos 
-implicaría tener los shards totalmente desbalanceados.
-{Gráficos de tipo de publicación}
-\item 
-Luego escogimos otro índice simple, en este caso la fecha, que resultó más interesante que el anterior. A medida que se insertaron los 
-datos se puede observar como se produce el balanceo de shards a través de la división y migración de los chunks, ya que es una clave con 
-cardinalidad alta. Hay que tener en cuenta que los datos fueron generados de forma aleatoria, quizás en un caso real las fechas serían 
-consecutivas lo que deriva en que las inserciones apunten al mismo shard.
-{Gráficos de fechas}
-\item 
-Por último se utiliza un índice hash sobre el campo `id' que genera Mongo a cada documento.\end{enumerate}
+Observaciones:
+\begin{itemize}
+\item En los siguientes gráficos, el eje x representa el número de iteración de ingreso de datos, en cada una se insertan 20000 documentos.
+\item Se decidió representar algunos de los gráficos con barras ya que había mucha colisión entre las lineas, creemos que esta reprensetación ayuda visualmente.
+\end{itemize}
 
 
+Realizamos la experimentación para tres formas de sharding distintas:
+
+\subsubsection{Shard por índice simple: Tipo de publicación}
+\input{sharding-tipoDePublicacion.tex}
+
+\newpage
+\subsubsection{Shard por índice simple: Fecha}
+\input{sharding-fecha.tex}
+
+\newpage
+\subsubsection{Shard por Hash: Id}
+\input{sharding-hash.tex}
+
+\newpage
 \subsection{Conclusión}
+
+Es esencial elegir correctamente el shard key si se quiere una correcta distribución, hay que tener en cuenta distribución de los datos, cantidad de los mismos y cantidad de shards.\\
+
+Hicimos el primer experimento (tipo de publicación) sin informarnos sobre cómo elegir el shard key, por suerte notamos los problemas a tiempo para repetir el experimento con otra key. Aunque respetando el enunciado no se eligió una shard key compuesta (índice simple). A vista de los resultados una posible clave sería la compuesta por (tipo de publicación, fecha) pero también depende de cómo se quiera acceder a los datos luego.\\
+
+El índice hash funciona muy bien aunque se pierde la vecinidad de los datos, ya que datos con claves parecidas pueden ir a shards totalmente distintos. Esto puede ser algo tanto bueno como malo. Depende, nuevamente, de cómo se quieran utilizar los datos.
+
 \subsection{Fuentes} 
-\begin{enumerate}
+\begin{itemize}
 \item 
 https://docs.mongodb.com/v3.0/sharding/
 \item 
 https://www.mongodb.com/blog/post/on-selecting-a-shard-key-for-mongodb
 \item 
-http://www.mongodbspain.com/es/tag/shard/\end{enumerate}
-
-
-
+http://www.mongodbspain.com/es/tag/shard/
+\end{itemize}
