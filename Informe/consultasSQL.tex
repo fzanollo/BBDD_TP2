@@ -1,0 +1,29 @@
+Para generar los documentos, se debería extraer la información de la base de datos relacional generada en el trabajo práctico.
+A continuación se detallan las consultas en lenguaje SQL necesarias:
+
+  \begin{lstlisting}[language=SQL]
+/*Consulta para obtener los datos para emitir la factura mensual de un usuario*/
+
+Select		publicacionId,
+		titulo,
+		sum(precioPorUnidad * cantidadDeUnidades * comision) as comision
+From publicaciones as p 
+Join compraventa as cv on p.publicacionId= cv.publicacionId 
+Join articulos as a on a.publicacionId=p.publicacionID
+Join tipoPublicacion as tp on tp.idTipoPublicacion=p.tipo 
+Where cv.fecha.month() >= now.month()-1 
+And idTipoPublicacion= 1|2|3 
+And p.email= {usuario al que corresponde la factura} 
+Group by PublicaciónId, Título
+
+#Solo para las que son oro o plata, las ruby de oriente tienen un abono fijo
+
+  \end{lstlisting}
+  \begin{description}
+ \item[linea 5] Únicamente para las publicaciones oro y plata.
+ \item[linea 10] Obtenemos sólo las publicaciones correspondientes al último mes.
+ \item[linea 11] 1= Rubí, 2= Oro, 3= Plata
+ \item[linea 12] El email (que es la clave primaria del usuario) se reemplaza por un id en los documentos.
+ \item[Nota Adicional] El monto fijo a abonar por las publicaciones rubi de oriente se puede consultar aparte, ya que
+ no se usa en la consulta (a diferencia de la comision)
+  \end{description}
