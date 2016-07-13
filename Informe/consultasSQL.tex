@@ -12,18 +12,99 @@ Join compraventa as cv on p.publicacionId= cv.publicacionId
 Join articulos as a on a.publicacionId=p.publicacionID
 Join tipoPublicacion as tp on tp.idTipoPublicacion=p.tipo 
 Where cv.fecha.month() >= now.month()-1 
-And idTipoPublicacion= 1|2|3 
+And idTipoPublicacion= N 
 And p.email= {usuario al que corresponde la factura} 
 Group by PublicaciónId, Título
-
-#Solo para las que son oro o plata, las ruby de oriente tienen un abono fijo
 
   \end{lstlisting}
   \begin{description}
  \item[linea 5] Únicamente para las publicaciones oro y plata.
  \item[linea 10] Obtenemos sólo las publicaciones correspondientes al último mes.
- \item[linea 11] 1= Rubí, 2= Oro, 3= Plata
+ \item[linea 11] N: 1= Rubí, 2= Oro, 3= Plata
  \item[linea 12] El email (que es la clave primaria del usuario) se reemplaza por un id en los documentos.
  \item[Nota Adicional] El monto fijo a abonar por las publicaciones rubi de oriente se puede consultar aparte, ya que
  no se usa en la consulta (a diferencia de la comision)
   \end{description}
+
+  \begin{lstlisting}[language=SQL]
+/*Consulta para obtener el detalle de las ventas*/
+
+Select	publicacionId,
+	p.Email as idVendedor,
+	U.nombre as vendedor,
+	Cv.email as idComprador,
+	Titulo,
+	Comision,
+	calificacionVendedor,
+	calificacionComprador,
+	sum(precioPorUnidad * cantidadDeUnidades) as importe
+From publicaciones as p 
+Join compraventa as cv on p.publicacionId= cv.publicacionId 
+Join articulos as a on a.publicacionId=p.publicacionID
+Join tipoPublicacion as tp on tp.idTipoPublicacion=p.tipo
+Join calificacion on cv.calificacionVendedor=calificacion.idCalifiacion
+Join calificacion on cv.calificacionComprador=calificacion.idCalifiacion
+And idTipoPublicacion= N
+Group by 	publicacionId,
+		idVendedor,
+		idComprador,
+		titulo,
+		Comision,    
+		calificacionVendedor,
+		calificacionComprador
+
+  \end{lstlisting}
+  \begin{description}
+ \item[linea 11] Únicamente para las publicaciones oro y plata.
+ \item[linea 18] 1= Rubí, 2= Oro, 3= Plata.
+  \item[Nota Adicional] El monto fijo a abonar por las publicaciones rubi de oriente se puede consultar aparte, ya que
+ no se usa en la consulta (a diferencia de la comision)
+
+  \end{description}
+\newpage
+   \begin{lstlisting}[language=SQL]
+/*Consulta para obtener el detalle de las ventas*/
+
+Select	publicacionId,
+	p.Email as idVendedor,
+	U.nombre as vendedor,
+	Cv.email as idComprador,
+	Titulo,
+	Comision,
+	calificacionVendedor,
+	calificacionComprador,
+	sum(precioPorUnidad * cantidadDeUnidades) as importe
+From publicaciones as p 
+Join compraventa as cv on p.publicacionId= cv.publicacionId 
+Join articulos as a on a.publicacionId=p.publicacionID
+Join tipoPublicacion as tp on tp.idTipoPublicacion=p.tipo
+Join calificacion on cv.calificacionVendedor=calificacion.idCalifiacion
+Join calificacion on cv.calificacionComprador=calificacion.idCalifiacion
+And idTipoPublicacion= N
+Group by 	publicacionId,
+		idVendedor,
+		idComprador,
+		titulo,
+		Comision,    
+		calificacionVendedor,
+		calificacionComprador
+
+  \end{lstlisting}
+  \begin{description}
+ \item[lineas 3 y 5] El email (que es la clave primaria del usuario) se reemplaza por un id en los documentos.
+ \item[linea 11] Únicamente para las publicaciones oro y plata.
+ \item[linea 18] 1= Rubí, 2= Oro, 3= Plata.
+ \item[Nota adicional] Por claridad, se omiten de la consulta el nombre y el apellido del comprador/vendedor.
+ Estos pueden obtenerse trivialmente consultando la tabla de usuarios usando la clave primaria de los usuarios
+ (el email), que sí está de manera explícita en la consulta.
+
+  \end{description}
+   \begin{lstlisting}[language=SQL]
+/*Consulta para obtener el resumen de las publicaciones*/
+
+Select	publicacionId,
+	Titulo,
+	TipoPublicacion
+From publicaciones as p 
+
+  \end{lstlisting}
