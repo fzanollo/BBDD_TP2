@@ -1,0 +1,56 @@
+  En este trabajo práctico se presenta un ejemplo de trabajo con bases de datos noSQL (a partir de una base de datos relacional),
+asi como el uso de la técnica de sharding para lograr que los datos se almacenen de forma distribuida y la técnica de map reduce,
+que se utiliza para realizar consultas eficientes basadas en computo paralelo utilizada en bases de datos distribuidas.
+El sistem de bases de datos a utilizar es MongoDB. MongoDB es un sistema de bases de datos orientado a documentos, guardando
+la estructura de los datos en documentos tipo JSON (javascript object notation) que se almacenan en colecciones. Si estuvieramos
+en el modelo relacional, cada colección tendría como una tabla y cada registro sería un documento.\\
+  La estructura a utilizar para los documentos es la siguiente:
+\begin{itemize}
+
+\item 
+  Facturas: En las facturas se desea almacenar, para el usuario que corresponde, nombre completo y número de id
+  para poder identificarlo, la fecha para diferenciar a que mes corresponde cada factura y el detalle pertinente a cada cliente.
+  Esto es, qué publicaciones realizé mediante el pago de un abono fijo (y en que monto consiste dicho abono) y las ventas que 
+  realizó a comisión.
+  \begin{lstlisting}[language=JavaScript]
+  Facturas
+  {
+      usuario: {id, nombre, apellido},
+      fecha: fecha
+      abonoFijo: { publicaciones: [titulos], abono },
+      comisiones: [ { publicacion: {titulo}, comision a pagar } ]
+  }
+  \end{lstlisting}
+\item 
+  Ventas: En este documento se extrae un resumen de los datos relacionados a una venta. Los datos que nos interesan son
+  el id de la publicación, quién vendió, quién compró, que calificación se asignaron mutuamente, de cuánto fue el importe de la venta
+  y que comisión corresponde cobrarle al vendedor por dicha venta.
+  \begin{lstlisting}[language=JavaScript]
+  Ventas:
+  {
+      publicacionId: id,
+      importe: total de la venta,
+      vendedor: {id vendedor, nombre},
+      comprador: {id comprador, nombre},
+      calificacionVendedor: calificacion vendedor,
+      calificacionComprador: calificacion comprador,
+      comision: porcentaje de comsion cobrada por la venta
+  }
+  \end{lstlisting}
+\item 
+  Publicaciones: Este documento es un resumen de cada publicación, que únicamente indica si una publicación pertenece a un servicio o a un articulo,
+  el título de dicha publicación y su número de identificación.
+  \begin{lstlisting}[language=JavaScript]
+  Publicaciones
+  {
+      Id: id,
+      Tìtulo: titulo,
+      Tipo de publicación: servicio/articulo
+  }
+  \end{lstlisting}
+
+\end{itemize}
+
+La estructura de los documentos está definida según lo especificado en la base de datos relacional implementada en el trabajo práctico anterior,
+asi como su correpondiente modelo conceptual. Los documentos contienen la información necesaria para realizar las consultas Map-Reduce
+detalladas mas adelante.
